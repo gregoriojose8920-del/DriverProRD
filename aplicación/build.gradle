@@ -1,4 +1,3 @@
-// app/build.gradle
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
@@ -7,6 +6,7 @@ plugins {
 android {
     namespace 'com.mxl.driverpro'
     compileSdk 34
+    
     defaultConfig {
         applicationId "com.mxl.driverpro"
         minSdk 24
