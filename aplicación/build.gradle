@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
+apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
     namespace 'com.mxl.driverpro'
@@ -10,8 +10,4 @@ android {
         minSdk 24
         targetSdk 34
     }
-}
-
-dependencies {
-    implementation 'androidx.core:core-ktx:1.12.0'
 }
