@@ -1,7 +1,9 @@
+// app/build.gradle
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
+
 android {
     namespace 'com.mxl.driverpro'
     compileSdk 34
@@ -10,7 +12,4 @@ android {
         minSdk 24
         targetSdk 34
     }
-}
-dependencies {
-    implementation 'androidx.core:core-ktx:1.12.0'
 }
