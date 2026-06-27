@@ -1,15 +1,41 @@
-// aplicación/build.gradle - EL MÓDULO QUE TIENE EL CÓDIGO
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
 
+repositories {
+    google()
+    mavenCentral()
+}
+
 android {
     namespace 'com.mxl.driverpro'
     compileSdk 34
+
     defaultConfig {
         applicationId "com.mxl.driverpro"
         minSdk 24
         targetSdk 34
     }
+
+    lint {
+        abortOnError false
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
 }
+
+dependencies {
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10'
+}
+
+
+

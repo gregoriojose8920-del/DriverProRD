@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+id btn_filter
+id btn_toggle
+id status_text
+layout floating_layout
+xml accessibility_service_config

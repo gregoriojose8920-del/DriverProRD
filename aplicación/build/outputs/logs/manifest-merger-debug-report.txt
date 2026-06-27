@@ -1,0 +1,56 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.BIND_ACCESSIBILITY_SERVICE
+ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:6:5-85
+	android:name
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:6:22-82
+application
+ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:8:5-25:19
+INJECTED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:8:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml
+	android:supportsRtl
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:10:9-34
+	android:allowBackup
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:9:9-35
+service#com.mxl.driverpro.logic.ActionEngine
+ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:13:9-23:19
+	android:exported
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:16:13-36
+	android:permission
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:15:13-79
+	android:name
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:14:13-47
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:17:13-19:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:18:17-92
+	android:name
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:18:25-89
+meta-data#android.accessibilityservice
+ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:20:13-22:72
+	android:resource
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:21:17-60
+uses-sdk
+INJECTED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml
+INJECTED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml

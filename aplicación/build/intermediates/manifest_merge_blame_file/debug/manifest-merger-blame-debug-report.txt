@@ -1,0 +1,50 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mxl.driverpro" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="24"
+7        android:targetSdkVersion="34" />
+8
+9    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+9-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:5:5-78
+9-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:5:22-75
+10    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+10-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:6:5-85
+10-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:6:22-82
+11
+12    <application
+12-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:8:5-25:19
+13        android:allowBackup="true"
+13-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:9:9-35
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:label="DriverPro"
+16-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:10:9-34
+17        android:supportsRtl="true" >
+17-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:11:9-35
+18        <service
+18-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:13:9-23:19
+19            android:name="com.mxl.driverpro.logic.ActionEngine"
+19-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:14:13-47
+20            android:exported="true"
+20-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:16:13-36
+21            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+21-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:15:13-79
+22            <intent-filter>
+22-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:17:13-19:29
+23                <action android:name="android.accessibilityservice.AccessibilityService" />
+23-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:18:17-92
+23-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:18:25-89
+24            </intent-filter>
+25
+26            <meta-data
+26-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:20:13-22:72
+27                android:name="android.accessibilityservice"
+27-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:21:17-60
+28                android:resource="@xml/accessibility_service_config" />
+28-->/home/josecolorvision/DriverProRD/aplicación/src/main/AndroidManifest.xml:22:17-69
+29        </service>
+30    </application>
+31
+32</manifest>

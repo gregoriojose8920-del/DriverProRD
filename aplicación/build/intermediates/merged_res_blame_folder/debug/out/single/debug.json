@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.mxl.driverpro.aplicación-merged_res-4:/layout_floating_layout.xml.flat",
+        "source": "com.mxl.driverpro.aplicación-main-6:/layout/floating_layout.xml"
+    },
+    {
+        "merged": "com.mxl.driverpro.aplicación-merged_res-4:/xml_accessibility_service_config.xml.flat",
+        "source": "com.mxl.driverpro.aplicación-main-6:/xml/accessibility_service_config.xml"
+    }
+]

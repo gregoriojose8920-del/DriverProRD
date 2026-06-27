@@ -1,0 +1,5 @@
+int id btn_filter 0x7f010000
+int id btn_toggle 0x7f010001
+int id status_text 0x7f010002
+int layout floating_layout 0x7f020000
+int xml accessibility_service_config 0x7f030000

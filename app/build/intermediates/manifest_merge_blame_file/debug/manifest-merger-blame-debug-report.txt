@@ -1,0 +1,264 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mxl.driverpro"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:5:5-78
+11-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:6:5-77
+12-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:7:5-67
+13-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
+14-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:22-76
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.mxl.driverpro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.mxl.driverpro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:9:5-35:19
+23        android:allowBackup="true"
+23-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:label="@string/app_name"
+27-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:11:9-41
+28        android:supportsRtl="true"
+28-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:12:9-35
+29        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+29-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:13:9-67
+30        <activity
+30-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:15:9-21:20
+31            android:name="com.mxl.driverpro.MainActivity"
+31-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:15:19-47
+32            android:exported="true" >
+32-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:16:13-36
+33            <intent-filter>
+33-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:17:13-20:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:18:17-69
+34-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:18:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:19:17-77
+36-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:19:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <service
+40-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:23:9-33:19
+41            android:name="com.mxl.driverpro.logic.ActionEngine"
+41-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:24:13-47
+42            android:exported="true"
+42-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:26:13-36
+43            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+43-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:25:13-79
+44            <intent-filter>
+44-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:27:13-29:29
+45                <action android:name="android.accessibilityservice.AccessibilityService" />
+45-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:28:17-92
+45-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:28:25-89
+46            </intent-filter>
+47
+48            <meta-data
+48-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:30:13-32:72
+49                android:name="android.accessibilityservice"
+49-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:31:17-60
+50                android:resource="@xml/accessibility_service_config" />
+50-->/home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:32:17-69
+51        </service>
+52        <service
+52-->[com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:8:9-14:19
+53            android:name="com.google.firebase.components.ComponentDiscoveryService"
+53-->[com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:9:13-84
+54            android:directBootAware="true"
+54-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+55            android:exported="false" >
+55-->[com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:10:13-37
+56            <meta-data
+56-->[com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:11:13-13:85
+57                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+57-->[com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:12:17-119
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:13:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+60                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+60-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:12:13-14:85
+63                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+63-->[com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:13:17-129
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:14:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:17:13-19:85
+66                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+66-->[com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:18:17-122
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:19:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:20:13-22:85
+69                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+69-->[com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:21:17-111
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:22:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+72                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+72-->[com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+75                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+75-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+77        </service>
+78
+79        <activity
+79-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+80            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+80-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+81            android:excludeFromRecents="true"
+81-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+82            android:exported="true"
+82-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+83            android:launchMode="singleTask"
+83-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+84-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+85            <intent-filter>
+85-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+86-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+88-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+89-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+90
+91                <data
+91-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+92                    android:host="firebase.auth"
+92-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+93                    android:path="/"
+93-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+94                    android:scheme="genericidp" />
+94-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+95            </intent-filter>
+96        </activity>
+97        <activity
+97-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+98            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+98-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+99            android:excludeFromRecents="true"
+99-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+100            android:exported="true"
+100-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+101            android:launchMode="singleTask"
+101-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+102-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+103            <intent-filter>
+103-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+104                <action android:name="android.intent.action.VIEW" />
+104-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+104-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+106-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+107                <category android:name="android.intent.category.BROWSABLE" />
+107-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+107-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+108
+109                <data
+109-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+110                    android:host="firebase.auth"
+110-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+111                    android:path="/"
+111-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+112                    android:scheme="recaptcha" />
+112-->[com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+113            </intent-filter>
+114        </activity>
+115
+116        <provider
+116-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+117            android:name="com.google.firebase.provider.FirebaseInitProvider"
+117-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+118            android:authorities="com.mxl.driverpro.firebaseinitprovider"
+118-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+120            android:exported="false"
+120-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+121            android:initOrder="100" />
+121-->[com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+131
+132        <provider
+132-->[androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+133            android:name="androidx.startup.InitializationProvider"
+133-->[androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+134            android:authorities="com.mxl.driverpro.androidx-startup"
+134-->[androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+135            android:exported="false" >
+135-->[androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+136            <meta-data
+136-->[androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+137                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+137-->[androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+138                android:value="androidx.startup" />
+138-->[androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+139            <meta-data
+139-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+140                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+140-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+141                android:value="androidx.startup" />
+141-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+142        </provider>
+143    </application>
+144
+145</manifest>

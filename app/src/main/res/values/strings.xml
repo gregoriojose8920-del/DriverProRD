@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DriverPro</string>
+    <string name="accessibility_service_description">DriverPro - Asistente para conductores InDrive</string>
+</resources>

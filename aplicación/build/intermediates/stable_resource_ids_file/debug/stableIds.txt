@@ -1,0 +1,5 @@
+com.mxl.driverpro:xml/accessibility_service_config = 0x7f030000
+com.mxl.driverpro:layout/floating_layout = 0x7f020000
+com.mxl.driverpro:id/status_text = 0x7f010002
+com.mxl.driverpro:id/btn_toggle = 0x7f010001
+com.mxl.driverpro:id/btn_filter = 0x7f010000

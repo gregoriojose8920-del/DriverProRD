@@ -1,0 +1,7 @@
+com.mxl.driverpro.aplicación-pngs-0 /home/josecolorvision/DriverProRD/aplicación/build/generated/res/pngs/debug
+com.mxl.driverpro.aplicación-resValues-1 /home/josecolorvision/DriverProRD/aplicación/build/generated/res/resValues/debug
+com.mxl.driverpro.aplicación-packageDebugResources-2 /home/josecolorvision/DriverProRD/aplicación/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.mxl.driverpro.aplicación-packageDebugResources-3 /home/josecolorvision/DriverProRD/aplicación/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.mxl.driverpro.aplicación-merged_res-4 /home/josecolorvision/DriverProRD/aplicación/build/intermediates/merged_res/debug
+com.mxl.driverpro.aplicación-debug-5 /home/josecolorvision/DriverProRD/aplicación/src/debug/res
+com.mxl.driverpro.aplicación-main-6 /home/josecolorvision/DriverProRD/aplicación/src/main/res

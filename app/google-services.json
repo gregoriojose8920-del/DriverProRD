@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "182592032807",
+    "project_id": "driverprord-1ad3b",
+    "storage_bucket": "driverprord-1ad3b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182592032807:android:c76f850d001e7f88f03e02",
+        "android_client_info": {
+          "package_name": "com.mxl.driverpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa0REtYv9wthyALbmt-V7U3JceyMM39sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
