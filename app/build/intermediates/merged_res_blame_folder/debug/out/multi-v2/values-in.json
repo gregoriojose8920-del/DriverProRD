@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-34:/values-in/values-in.xml",
+            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-36:/values-in/values-in.xml",
             "map": [
                 {
                     "source": "/home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/res/values-in/values-in.xml",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/res/values-in/values.xml",
+                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/40b0733f15b1255e5e38aaa6af7e1c61/transformed/jetified-play-services-base-18.1.0/res/values-in/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

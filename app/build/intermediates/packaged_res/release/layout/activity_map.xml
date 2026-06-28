@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#0A0E1A">
+
+    <!-- HEADER -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:background="#0D1117" android:padding="8dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="DriverPro Mapa"
+            android:textColor="#2196F3" android:textSize="16sp" android:textStyle="bold"
+            android:gravity="center_vertical"/>
+        <Button android:id="@+id/btnVolverMap" android:layout_width="wrap_content"
+            android:layout_height="36dp" android:text="Volver"
+            android:backgroundTint="#37474F" android:textColor="#FFFFFF" android:textSize="12sp"/>
+    </LinearLayout>
+
+    <!-- BUSCADOR -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:background="#0D1117"
+        android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingBottom="8dp">
+        <EditText android:id="@+id/etSearchLocation" android:layout_width="0dp"
+            android:layout_height="40dp" android:layout_weight="1"
+            android:hint="Buscar lugar... (ej: Piantini, Santiago)"
+            android:textColorHint="#546E7A" android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3" android:textSize="13sp"
+            android:inputType="text" android:imeOptions="actionSearch"
+            android:paddingStart="8dp" android:layout_marginEnd="6dp"
+            android:singleLine="true"/>
+        <Button android:id="@+id/btnSearch" android:layout_width="wrap_content"
+            android:layout_height="40dp" android:text="🔍"
+            android:backgroundTint="#2196F3" android:textColor="#FFFFFF"
+            android:textSize="16sp" android:padding="8dp"/>
+    </LinearLayout>
+
+    <!-- CHIPS RAPIDOS -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:background="#0D1117"
+        android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingBottom="6dp">
+        <Button android:id="@+id/chipSD" android:layout_width="0dp"
+            android:layout_height="32dp" android:layout_weight="1"
+            android:text="Centro" android:backgroundTint="#1A237E"
+            android:textColor="#82B1FF" android:textSize="10sp" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/chipNorte" android:layout_width="0dp"
+            android:layout_height="32dp" android:layout_weight="1"
+            android:text="Norte" android:backgroundTint="#1A237E"
+            android:textColor="#82B1FF" android:textSize="10sp" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/chipEste" android:layout_width="0dp"
+            android:layout_height="32dp" android:layout_weight="1"
+            android:text="Este" android:backgroundTint="#1A237E"
+            android:textColor="#82B1FF" android:textSize="10sp" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/chipOeste" android:layout_width="0dp"
+            android:layout_height="32dp" android:layout_weight="1"
+            android:text="Oeste" android:backgroundTint="#1A237E"
+            android:textColor="#82B1FF" android:textSize="10sp"/>
+    </LinearLayout>
+
+    <!-- INFO BAR -->
+    <TextView android:id="@+id/tvMapInfo" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Cargando ubicacion..."
+        android:textColor="#90CAF9" android:textSize="11sp" android:gravity="center"
+        android:padding="4dp" android:background="#1A2035"/>
+
+    <!-- MAPA -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- BOTONES -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:background="#0D1117" android:padding="8dp">
+        <Button android:id="@+id/btnToggleHeatmap" android:layout_width="0dp"
+            android:layout_height="40dp" android:layout_weight="1"
+            android:text="🔥 CALOR" android:backgroundTint="#FF6F00"
+            android:textColor="#FFFFFF" android:textSize="11sp" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btnToggleBloqueo" android:layout_width="0dp"
+            android:layout_height="40dp" android:layout_weight="1"
+            android:text="🚫 BLOQUEAR ZONA" android:backgroundTint="#37474F"
+            android:textColor="#FFFFFF" android:textSize="10sp" android:layout_marginEnd="4dp"/>
+        <Button android:id="@+id/btnClearZonas" android:layout_width="0dp"
+            android:layout_height="40dp" android:layout_weight="1"
+            android:text="🗑 LIMPIAR" android:backgroundTint="#B71C1C"
+            android:textColor="#FFFFFF" android:textSize="10sp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-34:/values-kk/values-kk.xml",
+            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-36:/values-kk/values-kk.xml",
             "map": [
+                {
+                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/40b0733f15b1255e5e38aaa6af7e1c61/transformed/jetified-play-services-base-18.1.0/res/values-kk/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,292,441,563,665,801,923,1042,1147,1308,1410,1563,1688,1837,1990,2049,2104",
+                        "endColumns": "98,148,121,101,135,121,118,104,160,101,152,124,148,152,58,54,73",
+                        "endOffsets": "291,440,562,664,800,922,1041,1146,1307,1409,1562,1687,1836,1989,2048,2103,2177"
+                    },
+                    "to": {
+                        "startLines": "48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4429,4532,4685,4811,4917,5057,5183,5306,5579,5744,5850,6007,6136,6289,6446,6509,6568",
+                        "endColumns": "102,152,125,105,139,125,122,108,164,105,156,128,152,156,62,58,77",
+                        "endOffsets": "4527,4680,4806,4912,5052,5178,5301,5410,5739,5845,6002,6131,6284,6441,6504,6563,6641"
+                    }
+                },
                 {
                     "source": "/home/josecolorvision/.gradle/caches/transforms-3/98156a70848f693ce6478bb1afdd6112/transformed/appcompat-1.6.1/res/values-kk/values-kk.xml",
                     "from": {
@@ -35,23 +52,6 @@
                         "startOffsets": "5415",
                         "endColumns": "163",
                         "endOffsets": "5574"
-                    }
-                },
-                {
-                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/res/values-kk/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,292,441,563,665,801,923,1042,1147,1308,1410,1563,1688,1837,1990,2049,2104",
-                        "endColumns": "98,148,121,101,135,121,118,104,160,101,152,124,148,152,58,54,73",
-                        "endOffsets": "291,440,562,664,800,922,1041,1146,1307,1409,1562,1687,1836,1989,2048,2103,2177"
-                    },
-                    "to": {
-                        "startLines": "48,49,50,51,52,53,54,55,57,58,59,60,61,62,63,64,65",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4429,4532,4685,4811,4917,5057,5183,5306,5579,5744,5850,6007,6136,6289,6446,6509,6568",
-                        "endColumns": "102,152,125,105,139,125,122,108,164,105,156,128,152,156,62,58,77",
-                        "endOffsets": "4527,4680,4806,4912,5052,5178,5301,5410,5739,5845,6002,6131,6284,6441,6504,6563,6641"
                     }
                 },
                 {

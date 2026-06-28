@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#0A0E1A" android:padding="24dp">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="ESTADISTICAS DEL DIA" android:textColor="#2196F3"
+        android:textSize="20sp" android:textStyle="bold" android:gravity="center"
+        android:layout_marginTop="20dp" android:layout_marginBottom="30dp"/>
+
+    <TextView android:id="@+id/tvStatTrips" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Total viajes: 0"
+        android:textColor="#FFFFFF" android:textSize="22sp" android:textStyle="bold"
+        android:gravity="center" android:padding="16dp" android:background="#1A2035"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView android:id="@+id/tvStatGanancias" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Estimado: RD$0"
+        android:textColor="#4CAF50" android:textSize="20sp" android:textStyle="bold"
+        android:gravity="center" android:padding="16dp" android:background="#1A2035"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView android:id="@+id/tvStatPorHora" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Viajes/hora: 0"
+        android:textColor="#90CAF9" android:textSize="18sp"
+        android:gravity="center" android:padding="14dp" android:background="#1A2035"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView android:id="@+id/tvStatPrecioMin" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Precio minimo: RD$150"
+        android:textColor="#FFB74D" android:textSize="16sp"
+        android:gravity="center" android:padding="12dp" android:background="#1A2035"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView android:id="@+id/tvStatInicio" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Desde: ..."
+        android:textColor="#607D8B" android:textSize="13sp"
+        android:gravity="center" android:padding="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button android:id="@+id/btnResetStats" android:layout_width="match_parent"
+        android:layout_height="48dp" android:text="REINICIAR CONTADOR"
+        android:backgroundTint="#FF5252" android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+    <Button android:id="@+id/btnVolverStats" android:layout_width="match_parent"
+        android:layout_height="48dp" android:text="VOLVER"
+        android:backgroundTint="#37474F" android:textColor="#90CAF9"/>
+
+</LinearLayout>

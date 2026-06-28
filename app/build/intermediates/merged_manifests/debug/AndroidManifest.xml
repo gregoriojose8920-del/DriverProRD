@@ -8,15 +8,25 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
-    <!-- PERMISOS -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14" /> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <queries>
+
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
 
     <permission
         android:name="com.mxl.driverpro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -30,12 +40,14 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="DriverPro"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCw2hXqxNiwFVIzN4C9sfezjQyfXu6Vixc" />
 
-        <!-- ACTIVIDAD PRINCIPAL -->
         <activity
             android:name="com.mxl.driverpro.MainActivity"
             android:exported="true" >
@@ -45,8 +57,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.mxl.driverpro.SubscriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mxl.driverpro.StatsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mxl.driverpro.MapActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mxl.driverpro.SetupWizardActivity"
+            android:exported="false" />
 
-        <!-- SERVICIO DE ACCESIBILIDAD -->
         <service
             android:name="com.mxl.driverpro.logic.ActionEngine"
             android:exported="true"
@@ -128,7 +151,10 @@
             android:authorities="com.mxl.driverpro.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
-            android:initOrder="100" />
+            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

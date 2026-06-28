@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-34:/values-port/values-port.xml",
+            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-36:/values-port/values-port.xml",
             "map": [
                 {
                     "source": "/home/josecolorvision/.gradle/caches/transforms-3/98156a70848f693ce6478bb1afdd6112/transformed/appcompat-1.6.1/res/values-port/values-port.xml",

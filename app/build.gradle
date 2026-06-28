@@ -5,6 +5,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file(System.getProperty("user.home") + "/driverpro.keystore")
+            storePassword "driverpro2026"
+            keyAlias "driverpro"
+            keyPassword "driverpro2026"
+        }
+    }
     namespace 'com.mxl.driverpro'
     compileSdk 34
 
@@ -42,6 +50,9 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.gms:play-services-maps:18.2.0'
+    implementation 'com.google.android.gms:play-services-location:21.1.0'
+    implementation 'com.google.maps.android:android-maps-utils:3.4.0'
     
     // Firebase (usando BOM para versiones consistentes)
     implementation platform('com.google.firebase:firebase-bom:32.7.0')
