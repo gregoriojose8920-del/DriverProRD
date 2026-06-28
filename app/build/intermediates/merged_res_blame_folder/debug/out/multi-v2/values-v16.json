@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-31:/values-v16/values-v16.xml",
+            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-34:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/1f2683a7acaa50520927f56912d3b60b/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/98156a70848f693ce6478bb1afdd6112/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

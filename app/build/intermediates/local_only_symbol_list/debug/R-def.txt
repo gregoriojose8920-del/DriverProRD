@@ -12,6 +12,10 @@ color white
 drawable ic_launcher_foreground
 drawable logo
 drawable panel_background
+id btn1Ano
+id btn1Mes
+id btn3Meses
+id btn6Meses
 id btnAccessibility
 id btnMinimize
 id btnOverlay
@@ -22,9 +26,11 @@ id inputMinPrice
 id inputMinRating
 id panelTitle
 id switchActive
+id tvStatus
 id txtAlerta
 id txtStatus
 layout activity_main
+layout activity_subscription
 layout floating_layout
 mipmap ic_launcher
 mipmap ic_launcher_round

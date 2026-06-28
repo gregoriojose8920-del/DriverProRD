@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0E1A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Logo y titulo -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DriverPro"
+            android:textSize="28sp"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvTrips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Viajes aceptados hoy: 0"
+            android:textColor="#90CAF9"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Switch principal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1A2035"
+            android:padding="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bot Activo"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <Switch
+                android:id="@+id/switchBot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Boton accesibilidad -->
+        <Button
+            android:id="@+id/btnAccessibility"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="12dp"
+            android:text="Activar Servicio de Accesibilidad"
+            android:backgroundTint="#1565C0"
+            android:textColor="#FFFFFF"/>
+
+        <!-- Filtros -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FILTROS"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etMinPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio minimo (RD$)"
+            android:textColorHint="#666"
+            android:textColor="#FFF"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etMaxDist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Distancia maxima de recojo (km)"
+            android:textColorHint="#666"
+            android:textColor="#FFF"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etMinRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calificacion minima del pasajero"
+            android:textColorHint="#666"
+            android:textColor="#FFF"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2196F3"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="GUARDAR FILTROS"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

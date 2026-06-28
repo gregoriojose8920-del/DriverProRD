@@ -1,70 +1,70 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:2:1-37:12
-INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:2:1-37:12
-MERGED from [com.google.android.material:material:1.8.0] /home/josecolorvision/.gradle/caches/transforms-3/83a330a641d7e3550821614a00f547b4/transformed/material-1.8.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/acb147721c38cbf6b640f3f67ebdf947/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/4ac4f4f66547f2f722e93eb4bcd9eac0/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/1f2683a7acaa50520927f56912d3b60b/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8717295c1433ae744143013c535bdb32/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:17:1-75:12
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:2:1-18:12
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:2:1-26:12
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/5cb56c8e7128f3a4fb3d92b4ccc87f54/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/b5422028e9a1f2c2f96248df2e2354ee/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/38ba6e173516848cbca878dbe579fbcb/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/e3dafb7ea06c6801f49188a0c8eb7471/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8a35b75fdb6bdeeb61023de12d0ba405/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/1ffcf2a23f206c57d99a131b92ae5390/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/c548683da2c6becfcba6fd5b6f4feae3/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9655ebaee7ebe6bf75a81375eef17222/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/14aed522bb656b0b10cbd506ac752799/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/josecolorvision/.gradle/caches/transforms-3/c75705a3b9a042cdd34daaeac4b7c6dd/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c7a547931a8a2385d112a6f9a7f1a159/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/5fb06170ffafcdf071a4edb7f999d951/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.3.6] /home/josecolorvision/.gradle/caches/transforms-3/61c4b2fe8d384c69626a5787c5ab661c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.6.0] /home/josecolorvision/.gradle/caches/transforms-3/75b1ad23924b5665669da7cde8bff107/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/3317765785165e4f4440dee966dbf9b6/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/871587683ae4afd6150ac2e49fb29399/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/5c20efc76b2c7061b708f1cf52576a75/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/e0b49461d73979d3adf792c51cf20f7d/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/dcca84193bd91ccde045ef77b99baf15/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/a9a633fb85521a6d74e2eb6cda3a3738/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/fed51e41bad577fc53e3709dda34c3cd/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/5730ec1c8967680cdd9a1f7992a94766/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/df482aafec7acd7758b9a454fd400f7b/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.browser:browser:1.4.0] /home/josecolorvision/.gradle/caches/transforms-3/3b893579e811f914c7aad294a7d78fc9/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.core:core-ktx:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/401edafb58046dfc29d638a68f5f70b6/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.savedstate:savedstate:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7db53a8ab669967ceb02a551ce14d525/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/4f6f4a482f4c9c65cebe5859a3c2ce23/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/7e72eb706a7a95e217e2ea7ba1ba57a4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/ac674b820b2bc6aef5e9448817eca2cc/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/f929879b4df0e873300c4480f7a625e4/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.1.5] /home/josecolorvision/.gradle/caches/transforms-3/6cc436a679b913963285e2bbe970904e/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/22998efa4e20421686ddca33dbaef39f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/56ac6aabe509c305baa7e2d99be02564/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/86627f479589c6577d41b8e994e19f7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/6e280f1e72f0a55ce041bf875db8ff59/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/josecolorvision/.gradle/caches/transforms-3/4e44aaeda30dda51fb5a014df13568e4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/0c662b6211f849c6e1e361961b78590e/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/josecolorvision/.gradle/caches/transforms-3/dc4c401bb43ba249286dea1ac2b78aa4/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8d0b95c36eb7312706978c861829a294/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/ad79eab113b7e53d0a4dfdd8d189bb7f/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/7d2e9a04e7ebf4ccfe13310419318ff3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/8b77699d8db73e1f56b31b5809d40fac/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/josecolorvision/.gradle/caches/transforms-3/f14149cfe65da2c354777932aaba9881/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.material:material:1.11.0] /home/josecolorvision/.gradle/caches/transforms-3/7049149f2b12c11adbc586618ce51495/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/727203edaf4d300e876a38fd8548436d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/7415d6b446b525e1f383f95f329f0d54/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/97d2898e2ce26af7e7da7c0e2d66664e/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/4ba748a1d855a3b876401b6c407c95de/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/98156a70848f693ce6478bb1afdd6112/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8b85aad900fca3e1dbb7bafa64119442/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/b26e443ab9fee25ba5c9a028da751cc9/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c5294ee15cf9d5901eaf096136c72ba0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/josecolorvision/.gradle/caches/transforms-3/faf765129e6f36a97f69964ff4968ca7/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/81c9153ddbf5996770822a14200bb819/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/fc1ad0de98da20741c7fa098017be727/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c428be5827f6f0b675206439b2a15dc4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/josecolorvision/.gradle/caches/transforms-3/8223885db9c75f2daa6adff5effb8553/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /home/josecolorvision/.gradle/caches/transforms-3/cb7e0ea6aeb877cc41bbae5af407b239/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/1232c1fc688accaeb224cc70424de746/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/c6b8861fb4eff7b57c74d8c7fba6f51e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/b1dab1f3528e3a9c42ded89f67292f82/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/681bf9c66871fbd40275a30fa12febed/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/d1c4f8c1a582e3912b7c2f87bfea8bde/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/c5fadd4058df323a16f19b105f3cd7c2/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/eb5f1d04587f62285fea28817dfeb7e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/d2daded745f1b40a3accca031b54b8f4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/0f1658bf04c15cbd2f9b5765046f2569/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9ba3b2b863b3e51c0f3704676f4aff77/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/b30abe6a2dbe96f9909f5299731df8b3/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/6e9d89c6e35efd37d9caf819206054d7/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/9bebf4a379fb23e1570b4b65ab2bcc06/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /home/josecolorvision/.gradle/caches/transforms-3/a4062da0a7d27df0849f28cf639fde58/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/josecolorvision/.gradle/caches/transforms-3/deb9cc6f658d036894f959c3e132746e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3f0c9d30dd32a617807738a67dc727ec/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/257f28f339df86bfffcb6d05b109f190/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/01fb870777dc5d1c876ddd999322dc1b/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/8807102271d61ad6ec6872c11002f533/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/cc3829a65103816e13fabfe2dca0cc35/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/39fc6b6aa42828be3db17e61a02e84d6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9cc1c76d3a94c14cba13da52fbcfc0bf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/f8d900d0441e2483cc5428da6f16a3ce/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] /home/josecolorvision/.gradle/caches/transforms-3/a58a5a50e172031daea31f0bf4e75a07/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/a154c6d37cf3f6a90ea6eb0779694daf/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/9325fae483a3654a659a8e29eaea08cd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/a554d1a0ee5424cb4ff73de74d910efc/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/ed444e5b621ed8300981443a37f06dbd/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/dcb3706cced063519b14250e56f2246b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/josecolorvision/.gradle/caches/transforms-3/e548add2b0cadd749064ecfbf8b7a6ef/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/2116c48dfb6bcf9e6e4aa5b15e9ed9d0/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/92865166a3bf537cd8f31a52e504ccd8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/c29c1de8c8889b863d1b9317ad560718/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/josecolorvision/.gradle/caches/transforms-3/a6fb45694134981ffce23763de8255fa/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 	package
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml
@@ -82,420 +82,476 @@ ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:6:
 		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:6:22-74
 uses-permission#android.permission.INTERNET
 ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:7:5-67
-MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/b5422028e9a1f2c2f96248df2e2354ee/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/b5422028e9a1f2c2f96248df2e2354ee/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/7415d6b446b525e1f383f95f329f0d54/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/7415d6b446b525e1f383f95f329f0d54/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 	android:name
 		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:8:22-63
 application
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:9:5-35:19
-INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:9:5-35:19
-MERGED from [com.google.android.material:material:1.8.0] /home/josecolorvision/.gradle/caches/transforms-3/83a330a641d7e3550821614a00f547b4/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.material:material:1.8.0] /home/josecolorvision/.gradle/caches/transforms-3/83a330a641d7e3550821614a00f547b4/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/acb147721c38cbf6b640f3f67ebdf947/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/acb147721c38cbf6b640f3f67ebdf947/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:13:5-24:19
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:13:5-24:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/5cb56c8e7128f3a4fb3d92b4ccc87f54/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/5cb56c8e7128f3a4fb3d92b4ccc87f54/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9655ebaee7ebe6bf75a81375eef17222/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9655ebaee7ebe6bf75a81375eef17222/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c7a547931a8a2385d112a6f9a7f1a159/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c7a547931a8a2385d112a6f9a7f1a159/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/5fb06170ffafcdf071a4edb7f999d951/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/5fb06170ffafcdf071a4edb7f999d951/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/56ac6aabe509c305baa7e2d99be02564/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/56ac6aabe509c305baa7e2d99be02564/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/86627f479589c6577d41b8e994e19f7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/86627f479589c6577d41b8e994e19f7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:10:5-41:19
+INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:10:5-41:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.material:material:1.11.0] /home/josecolorvision/.gradle/caches/transforms-3/7049149f2b12c11adbc586618ce51495/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /home/josecolorvision/.gradle/caches/transforms-3/7049149f2b12c11adbc586618ce51495/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/727203edaf4d300e876a38fd8548436d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/727203edaf4d300e876a38fd8548436d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/97d2898e2ce26af7e7da7c0e2d66664e/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/97d2898e2ce26af7e7da7c0e2d66664e/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/b26e443ab9fee25ba5c9a028da751cc9/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/b26e443ab9fee25ba5c9a028da751cc9/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/81c9153ddbf5996770822a14200bb819/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/81c9153ddbf5996770822a14200bb819/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/fc1ad0de98da20741c7fa098017be727/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/fc1ad0de98da20741c7fa098017be727/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c428be5827f6f0b675206439b2a15dc4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c428be5827f6f0b675206439b2a15dc4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/9325fae483a3654a659a8e29eaea08cd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/9325fae483a3654a659a8e29eaea08cd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/a554d1a0ee5424cb4ff73de74d910efc/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/a554d1a0ee5424cb4ff73de74d910efc/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:13:9-67
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:16:9-67
 activity#com.mxl.driverpro.MainActivity
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:19:9-26:20
 	android:exported
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:16:13-36
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:20:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:17:13-20:29
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:24:27-74
 service#com.mxl.driverpro.logic.ActionEngine
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:23:9-33:19
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:29:9-39:19
 	android:exported
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:26:13-36
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:32:13-36
 	android:permission
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:25:13-79
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:31:13-79
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:24:13-47
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:30:13-47
 intent-filter#action:name:android.accessibilityservice.AccessibilityService
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:27:13-29:29
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:33:13-35:29
 action#android.accessibilityservice.AccessibilityService
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:28:17-92
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:34:17-92
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:28:25-89
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:34:25-89
 meta-data#android.accessibilityservice
-ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:30:13-32:72
+ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:36:13-38:72
 	android:resource
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:32:17-69
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:31:17-60
+		ADDED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml:37:17-60
 uses-sdk
 INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml
 INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.8.0] /home/josecolorvision/.gradle/caches/transforms-3/83a330a641d7e3550821614a00f547b4/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.material:material:1.8.0] /home/josecolorvision/.gradle/caches/transforms-3/83a330a641d7e3550821614a00f547b4/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/acb147721c38cbf6b640f3f67ebdf947/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/acb147721c38cbf6b640f3f67ebdf947/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/4ac4f4f66547f2f722e93eb4bcd9eac0/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/4ac4f4f66547f2f722e93eb4bcd9eac0/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/1f2683a7acaa50520927f56912d3b60b/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/1f2683a7acaa50520927f56912d3b60b/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8717295c1433ae744143013c535bdb32/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8717295c1433ae744143013c535bdb32/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
-MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/5cb56c8e7128f3a4fb3d92b4ccc87f54/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/5cb56c8e7128f3a4fb3d92b4ccc87f54/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/b5422028e9a1f2c2f96248df2e2354ee/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/b5422028e9a1f2c2f96248df2e2354ee/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/38ba6e173516848cbca878dbe579fbcb/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/38ba6e173516848cbca878dbe579fbcb/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/e3dafb7ea06c6801f49188a0c8eb7471/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/e3dafb7ea06c6801f49188a0c8eb7471/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8a35b75fdb6bdeeb61023de12d0ba405/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8a35b75fdb6bdeeb61023de12d0ba405/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/1ffcf2a23f206c57d99a131b92ae5390/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/1ffcf2a23f206c57d99a131b92ae5390/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/c548683da2c6becfcba6fd5b6f4feae3/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/c548683da2c6becfcba6fd5b6f4feae3/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9655ebaee7ebe6bf75a81375eef17222/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9655ebaee7ebe6bf75a81375eef17222/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/14aed522bb656b0b10cbd506ac752799/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/14aed522bb656b0b10cbd506ac752799/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/josecolorvision/.gradle/caches/transforms-3/c75705a3b9a042cdd34daaeac4b7c6dd/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/josecolorvision/.gradle/caches/transforms-3/c75705a3b9a042cdd34daaeac4b7c6dd/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c7a547931a8a2385d112a6f9a7f1a159/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
-MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c7a547931a8a2385d112a6f9a7f1a159/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/5fb06170ffafcdf071a4edb7f999d951/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/5fb06170ffafcdf071a4edb7f999d951/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.3.6] /home/josecolorvision/.gradle/caches/transforms-3/61c4b2fe8d384c69626a5787c5ab661c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /home/josecolorvision/.gradle/caches/transforms-3/61c4b2fe8d384c69626a5787c5ab661c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.6.0] /home/josecolorvision/.gradle/caches/transforms-3/75b1ad23924b5665669da7cde8bff107/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.6.0] /home/josecolorvision/.gradle/caches/transforms-3/75b1ad23924b5665669da7cde8bff107/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/3317765785165e4f4440dee966dbf9b6/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/3317765785165e4f4440dee966dbf9b6/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/871587683ae4afd6150ac2e49fb29399/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/871587683ae4afd6150ac2e49fb29399/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/5c20efc76b2c7061b708f1cf52576a75/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/5c20efc76b2c7061b708f1cf52576a75/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/e0b49461d73979d3adf792c51cf20f7d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/e0b49461d73979d3adf792c51cf20f7d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/dcca84193bd91ccde045ef77b99baf15/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/dcca84193bd91ccde045ef77b99baf15/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/a9a633fb85521a6d74e2eb6cda3a3738/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/a9a633fb85521a6d74e2eb6cda3a3738/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/fed51e41bad577fc53e3709dda34c3cd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/fed51e41bad577fc53e3709dda34c3cd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/5730ec1c8967680cdd9a1f7992a94766/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/5730ec1c8967680cdd9a1f7992a94766/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/df482aafec7acd7758b9a454fd400f7b/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/df482aafec7acd7758b9a454fd400f7b/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] /home/josecolorvision/.gradle/caches/transforms-3/3b893579e811f914c7aad294a7d78fc9/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] /home/josecolorvision/.gradle/caches/transforms-3/3b893579e811f914c7aad294a7d78fc9/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/401edafb58046dfc29d638a68f5f70b6/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/401edafb58046dfc29d638a68f5f70b6/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7db53a8ab669967ceb02a551ce14d525/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7db53a8ab669967ceb02a551ce14d525/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/4f6f4a482f4c9c65cebe5859a3c2ce23/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/4f6f4a482f4c9c65cebe5859a3c2ce23/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/7e72eb706a7a95e217e2ea7ba1ba57a4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/7e72eb706a7a95e217e2ea7ba1ba57a4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/ac674b820b2bc6aef5e9448817eca2cc/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/ac674b820b2bc6aef5e9448817eca2cc/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/f929879b4df0e873300c4480f7a625e4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/f929879b4df0e873300c4480f7a625e4/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:17.1.5] /home/josecolorvision/.gradle/caches/transforms-3/6cc436a679b913963285e2bbe970904e/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-components:17.1.5] /home/josecolorvision/.gradle/caches/transforms-3/6cc436a679b913963285e2bbe970904e/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/22998efa4e20421686ddca33dbaef39f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/22998efa4e20421686ddca33dbaef39f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/56ac6aabe509c305baa7e2d99be02564/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/56ac6aabe509c305baa7e2d99be02564/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/86627f479589c6577d41b8e994e19f7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/86627f479589c6577d41b8e994e19f7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/6e280f1e72f0a55ce041bf875db8ff59/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/6e280f1e72f0a55ce041bf875db8ff59/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/josecolorvision/.gradle/caches/transforms-3/4e44aaeda30dda51fb5a014df13568e4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/josecolorvision/.gradle/caches/transforms-3/4e44aaeda30dda51fb5a014df13568e4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/0c662b6211f849c6e1e361961b78590e/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/josecolorvision/.gradle/caches/transforms-3/0c662b6211f849c6e1e361961b78590e/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/josecolorvision/.gradle/caches/transforms-3/dc4c401bb43ba249286dea1ac2b78aa4/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/josecolorvision/.gradle/caches/transforms-3/dc4c401bb43ba249286dea1ac2b78aa4/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8d0b95c36eb7312706978c861829a294/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8d0b95c36eb7312706978c861829a294/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/ad79eab113b7e53d0a4dfdd8d189bb7f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/ad79eab113b7e53d0a4dfdd8d189bb7f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/7d2e9a04e7ebf4ccfe13310419318ff3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/7d2e9a04e7ebf4ccfe13310419318ff3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/8b77699d8db73e1f56b31b5809d40fac/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/8b77699d8db73e1f56b31b5809d40fac/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/josecolorvision/.gradle/caches/transforms-3/f14149cfe65da2c354777932aaba9881/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/josecolorvision/.gradle/caches/transforms-3/f14149cfe65da2c354777932aaba9881/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/josecolorvision/.gradle/caches/transforms-3/7049149f2b12c11adbc586618ce51495/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/josecolorvision/.gradle/caches/transforms-3/7049149f2b12c11adbc586618ce51495/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/727203edaf4d300e876a38fd8548436d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/josecolorvision/.gradle/caches/transforms-3/727203edaf4d300e876a38fd8548436d/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/7415d6b446b525e1f383f95f329f0d54/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/7415d6b446b525e1f383f95f329f0d54/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/97d2898e2ce26af7e7da7c0e2d66664e/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/josecolorvision/.gradle/caches/transforms-3/97d2898e2ce26af7e7da7c0e2d66664e/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/4ba748a1d855a3b876401b6c407c95de/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/4ba748a1d855a3b876401b6c407c95de/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/98156a70848f693ce6478bb1afdd6112/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/josecolorvision/.gradle/caches/transforms-3/98156a70848f693ce6478bb1afdd6112/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8b85aad900fca3e1dbb7bafa64119442/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/8b85aad900fca3e1dbb7bafa64119442/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/b26e443ab9fee25ba5c9a028da751cc9/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /home/josecolorvision/.gradle/caches/transforms-3/b26e443ab9fee25ba5c9a028da751cc9/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c5294ee15cf9d5901eaf096136c72ba0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c5294ee15cf9d5901eaf096136c72ba0/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/josecolorvision/.gradle/caches/transforms-3/faf765129e6f36a97f69964ff4968ca7/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /home/josecolorvision/.gradle/caches/transforms-3/faf765129e6f36a97f69964ff4968ca7/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/81c9153ddbf5996770822a14200bb819/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/81c9153ddbf5996770822a14200bb819/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/fc1ad0de98da20741c7fa098017be727/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/josecolorvision/.gradle/caches/transforms-3/fc1ad0de98da20741c7fa098017be727/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c428be5827f6f0b675206439b2a15dc4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c428be5827f6f0b675206439b2a15dc4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /home/josecolorvision/.gradle/caches/transforms-3/8223885db9c75f2daa6adff5effb8553/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/josecolorvision/.gradle/caches/transforms-3/8223885db9c75f2daa6adff5effb8553/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /home/josecolorvision/.gradle/caches/transforms-3/cb7e0ea6aeb877cc41bbae5af407b239/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/josecolorvision/.gradle/caches/transforms-3/cb7e0ea6aeb877cc41bbae5af407b239/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/1232c1fc688accaeb224cc70424de746/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/1232c1fc688accaeb224cc70424de746/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/c6b8861fb4eff7b57c74d8c7fba6f51e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/c6b8861fb4eff7b57c74d8c7fba6f51e/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/b1dab1f3528e3a9c42ded89f67292f82/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/b1dab1f3528e3a9c42ded89f67292f82/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/681bf9c66871fbd40275a30fa12febed/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/681bf9c66871fbd40275a30fa12febed/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/d1c4f8c1a582e3912b7c2f87bfea8bde/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/d1c4f8c1a582e3912b7c2f87bfea8bde/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/c5fadd4058df323a16f19b105f3cd7c2/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/c5fadd4058df323a16f19b105f3cd7c2/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/eb5f1d04587f62285fea28817dfeb7e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/eb5f1d04587f62285fea28817dfeb7e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/d2daded745f1b40a3accca031b54b8f4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/d2daded745f1b40a3accca031b54b8f4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/0f1658bf04c15cbd2f9b5765046f2569/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/0f1658bf04c15cbd2f9b5765046f2569/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9ba3b2b863b3e51c0f3704676f4aff77/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9ba3b2b863b3e51c0f3704676f4aff77/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/b30abe6a2dbe96f9909f5299731df8b3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/b30abe6a2dbe96f9909f5299731df8b3/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/6e9d89c6e35efd37d9caf819206054d7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/6e9d89c6e35efd37d9caf819206054d7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/9bebf4a379fb23e1570b4b65ab2bcc06/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/josecolorvision/.gradle/caches/transforms-3/9bebf4a379fb23e1570b4b65ab2bcc06/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/josecolorvision/.gradle/caches/transforms-3/a4062da0a7d27df0849f28cf639fde58/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/josecolorvision/.gradle/caches/transforms-3/a4062da0a7d27df0849f28cf639fde58/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/josecolorvision/.gradle/caches/transforms-3/deb9cc6f658d036894f959c3e132746e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/josecolorvision/.gradle/caches/transforms-3/deb9cc6f658d036894f959c3e132746e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3f0c9d30dd32a617807738a67dc727ec/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3f0c9d30dd32a617807738a67dc727ec/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/257f28f339df86bfffcb6d05b109f190/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/257f28f339df86bfffcb6d05b109f190/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/01fb870777dc5d1c876ddd999322dc1b/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/01fb870777dc5d1c876ddd999322dc1b/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/8807102271d61ad6ec6872c11002f533/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/8807102271d61ad6ec6872c11002f533/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/cc3829a65103816e13fabfe2dca0cc35/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/cc3829a65103816e13fabfe2dca0cc35/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/39fc6b6aa42828be3db17e61a02e84d6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/39fc6b6aa42828be3db17e61a02e84d6/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9cc1c76d3a94c14cba13da52fbcfc0bf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/9cc1c76d3a94c14cba13da52fbcfc0bf/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/f8d900d0441e2483cc5428da6f16a3ce/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/f8d900d0441e2483cc5428da6f16a3ce/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /home/josecolorvision/.gradle/caches/transforms-3/a58a5a50e172031daea31f0bf4e75a07/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /home/josecolorvision/.gradle/caches/transforms-3/a58a5a50e172031daea31f0bf4e75a07/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/a154c6d37cf3f6a90ea6eb0779694daf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/a154c6d37cf3f6a90ea6eb0779694daf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/9325fae483a3654a659a8e29eaea08cd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/9325fae483a3654a659a8e29eaea08cd/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/a554d1a0ee5424cb4ff73de74d910efc/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/a554d1a0ee5424cb4ff73de74d910efc/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/ed444e5b621ed8300981443a37f06dbd/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/ed444e5b621ed8300981443a37f06dbd/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/dcb3706cced063519b14250e56f2246b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/dcb3706cced063519b14250e56f2246b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/josecolorvision/.gradle/caches/transforms-3/e548add2b0cadd749064ecfbf8b7a6ef/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/josecolorvision/.gradle/caches/transforms-3/e548add2b0cadd749064ecfbf8b7a6ef/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/2116c48dfb6bcf9e6e4aa5b15e9ed9d0/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/2116c48dfb6bcf9e6e4aa5b15e9ed9d0/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/92865166a3bf537cd8f31a52e504ccd8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/josecolorvision/.gradle/caches/transforms-3/92865166a3bf537cd8f31a52e504ccd8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/c29c1de8c8889b863d1b9317ad560718/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/c29c1de8c8889b863d1b9317ad560718/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/josecolorvision/.gradle/caches/transforms-3/a6fb45694134981ffce23763de8255fa/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/josecolorvision/.gradle/caches/transforms-3/a6fb45694134981ffce23763de8255fa/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:23:9-61
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
 		INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/josecolorvision/DriverProRD/app/src/main/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:8:9-14:19
-MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:14:9-23:19
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:14:9-23:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
-MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:10:13-37
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:11:13-37
 	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:34:13-32
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:34:13-32
 	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:9:13-84
-meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
-ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:11:13-13:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:13:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/63279ee790c429fc5e7902a5f8dc6e66/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:12:17-119
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/b5422028e9a1f2c2f96248df2e2354ee/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/b5422028e9a1f2c2f96248df2e2354ee/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
-MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/8b77699d8db73e1f56b31b5809d40fac/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
-MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/8b77699d8db73e1f56b31b5809d40fac/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:22-76
-activity#com.google.firebase.auth.internal.GenericIdpActivity
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
-data
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
-	android:path
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
-	android:host
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
-	android:scheme
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
-activity#com.google.firebase.auth.internal.RecaptchaActivity
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/dfdc8332f47d1f19f88b390625941f2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:10:13-84
 meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar
-ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:12:13-14:85
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:12:13-14:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:14:17-82
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:14:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/6d96bd0f1336cc414bc0bfddf458c153/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:13:17-129
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:13:17-129
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:12:17-119
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/7415d6b446b525e1f383f95f329f0d54/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /home/josecolorvision/.gradle/caches/transforms-3/7415d6b446b525e1f383f95f329f0d54/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/c29c1de8c8889b863d1b9317ad560718/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /home/josecolorvision/.gradle/caches/transforms-3/c29c1de8c8889b863d1b9317ad560718/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:10:22-76
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
-ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:17:13-19:85
+ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:17:13-19:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:19:17-82
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:19:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:18:17-122
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:18:17-122
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:20:13-22:85
+ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:22:17-82
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/357dcf3ebe9ecf91a43b14bdf388d868/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:21:17-111
-meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
-ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/7929f0a479ae17384db3ad2aebfc4f12/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+		ADDED from [com.google.firebase:firebase-firestore:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/abe66d2b51d33b0fb7faad8201012a91/transformed/jetified-firebase-firestore-24.10.0/AndroidManifest.xml:21:17-111
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/167455de3368c2b006239ce4d3ea5b44/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/c4a8b4bc8dd67cb98d52fc8632b7e843/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/524ec5633277dcf39735eac09fe698c4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/86627f479589c6577d41b8e994e19f7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/86627f479589c6577d41b8e994e19f7e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
-	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/e07a410fcf00d3f0f0f3b40d66538f4d/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/007e39655a036344126d9f2b53fe35ff/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /home/josecolorvision/.gradle/caches/transforms-3/b17422827df46747d07efe083688083f/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/josecolorvision/.gradle/caches/transforms-3/505c220ce0ec0dfd1e130b73974c2b0e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c428be5827f6f0b675206439b2a15dc4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c428be5827f6f0b675206439b2a15dc4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/josecolorvision/.gradle/caches/transforms-3/c428be5827f6f0b675206439b2a15dc4/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/a554d1a0ee5424cb4ff73de74d910efc/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/josecolorvision/.gradle/caches/transforms-3/a554d1a0ee5424cb4ff73de74d910efc/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/a6a426c05071a5334dfd7a1a7e3fee0a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/josecolorvision/.gradle/caches/transforms-3/7826bd1511d86e375b4540d62a631438/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 permission#com.mxl.driverpro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 uses-permission#com.mxl.driverpro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/f55cd418b58bb58ca2a6b3fa91545f10/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.12.0] /home/josecolorvision/.gradle/caches/transforms-3/3adc9b5ec7fc582f898139a5445bff0d/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/josecolorvision/.gradle/caches/transforms-3/6d8d9061425cf4f9a2daa81e906a9501/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/josecolorvision/.gradle/caches/transforms-3/3b3205ef1a9eea76a3249c1d340b4cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/josecolorvision/.gradle/caches/transforms-3/ae624bea88417fa6cad0fea6d55ad3d4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

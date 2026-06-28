@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-31:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.mxl.driverpro.app-mergeDebugResources-34:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/83a330a641d7e3550821614a00f547b4/transformed/material-1.8.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "source": "/home/josecolorvision/.gradle/caches/transforms-3/7049149f2b12c11adbc586618ce51495/transformed/material-1.11.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
