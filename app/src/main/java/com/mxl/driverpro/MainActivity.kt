@@ -1,14 +1,15 @@
 package com.mxl.driverpro
 
-import android.content.BroadcastReceiver
+import android.app.AlertDialog
 import android.content.ComponentName
-import android.content.Context
 import android.content.Intent
-import android.content.IntentFilter
 import android.content.SharedPreferences
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
+import android.text.InputFilter
+import android.text.InputType
 import android.text.TextUtils
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -18,28 +19,24 @@ class MainActivity : AppCompatActivity() {
     private lateinit var prefs: SharedPreferences
     private lateinit var switchBot: Switch
     private lateinit var tvTrips: TextView
+    private var tapCount = 0
+    private var lastTapTime = 0L
 
-    // Receptor de cambios desde el panel flotante
-    private val panelReceiver = object : BroadcastReceiver() {
-        override fun onReceive(context: Context, intent: Intent) {
+    private val panelReceiver = object : android.content.BroadcastReceiver() {
+        override fun onReceive(context: android.content.Context, intent: Intent) {
             when (intent.action) {
                 FloatingPanel.ACTION_SYNC -> {
                     val active = intent.getBooleanExtra(FloatingPanel.EXTRA_ACTIVE, true)
                     switchBot.isChecked = active
                 }
-                FloatingPanel.ACTION_TRIP_ACCEPTED -> {
-                    val trips = prefs.getInt("trip_count", 0)
-                    val estimado = (trips * prefs.getFloat("min_price", 150f)).toInt()
-                    tvTrips.text = "Viajes hoy: \$trips  |  Est: RD\$$estimado"
-                }
+                FloatingPanel.ACTION_TRIP_ACCEPTED -> updateTripsDisplay()
                 FloatingPanel.ACTION_FILTERS_SAVED -> {
-                    // Actualizar campos en pantalla con valores del panel
                     val price = intent.getFloatExtra(FloatingPanel.EXTRA_PRICE, 150f)
                     val dist = intent.getFloatExtra(FloatingPanel.EXTRA_DIST, 3f)
                     val rating = intent.getFloatExtra(FloatingPanel.EXTRA_RATING, 4f)
-                    findViewById<android.widget.EditText>(R.id.etMinPrice).setText(price.toInt().toString())
-                    findViewById<android.widget.EditText>(R.id.etMaxDist).setText(dist.toInt().toString())
-                    findViewById<android.widget.EditText>(R.id.etMinRating).setText(rating.toString())
+                    findViewById<EditText>(R.id.etMinPrice).setText(price.toInt().toString())
+                    findViewById<EditText>(R.id.etMaxDist).setText(dist.toInt().toString())
+                    findViewById<EditText>(R.id.etMinRating).setText(rating.toString())
                 }
             }
         }
@@ -56,6 +53,7 @@ class MainActivity : AppCompatActivity() {
 
         switchBot = findViewById(R.id.switchBot)
         tvTrips = findViewById(R.id.tvTrips)
+
         val etMinPrice = findViewById<EditText>(R.id.etMinPrice)
         val etMaxDist = findViewById<EditText>(R.id.etMaxDist)
         val etMinRating = findViewById<EditText>(R.id.etMinRating)
@@ -69,7 +67,6 @@ class MainActivity : AppCompatActivity() {
         switchBot.setOnCheckedChangeListener { _, checked ->
             prefs.edit().putBoolean("is_active", checked).apply()
             Toast.makeText(this, if (checked) "Bot ACTIVADO" else "Bot PAUSADO", Toast.LENGTH_SHORT).show()
-            // Sincronizar con panel flotante
             sendBroadcast(Intent(FloatingPanel.ACTION_SYNC).putExtra(FloatingPanel.EXTRA_ACTIVE, checked))
         }
 
@@ -80,21 +77,20 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
         }
         findViewById<Button>(R.id.btnSave).setOnClickListener {
+            val price = etMinPrice.text.toString().toFloatOrNull() ?: 150f
+            val dist = etMaxDist.text.toString().toFloatOrNull() ?: 3f
+            val rating = etMinRating.text.toString().toFloatOrNull() ?: 4f
             prefs.edit()
-                .putFloat("min_price", etMinPrice.text.toString().toFloatOrNull() ?: 150f)
-                .putFloat("max_distance", etMaxDist.text.toString().toFloatOrNull() ?: 3f)
-                .putFloat("min_rating", etMinRating.text.toString().toFloatOrNull() ?: 4f)
+                .putFloat("min_price", price)
+                .putFloat("max_distance", dist)
+                .putFloat("min_rating", rating)
                 .apply()
             Toast.makeText(this, "Filtros guardados", Toast.LENGTH_SHORT).show()
-            // Sincronizar con panel flotante
             sendBroadcast(Intent(FloatingPanel.ACTION_FILTERS_SAVED).apply {
-                putExtra(FloatingPanel.EXTRA_PRICE, etMinPrice.text.toString().toFloatOrNull() ?: 150f)
-                putExtra(FloatingPanel.EXTRA_DIST, etMaxDist.text.toString().toFloatOrNull() ?: 3f)
-                putExtra(FloatingPanel.EXTRA_RATING, etMinRating.text.toString().toFloatOrNull() ?: 4f)
+                putExtra(FloatingPanel.EXTRA_PRICE, price)
+                putExtra(FloatingPanel.EXTRA_DIST, dist)
+                putExtra(FloatingPanel.EXTRA_RATING, rating)
             })
-        }
-        findViewById<Button>(R.id.btnSetup).setOnClickListener {
-            startActivity(Intent(this, SetupWizardActivity::class.java))
         }
         findViewById<Button>(R.id.btnMapa).setOnClickListener {
             startActivity(Intent(this, MapActivity::class.java))
@@ -102,14 +98,131 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btnStats).setOnClickListener {
             startActivity(Intent(this, StatsActivity::class.java))
         }
+        findViewById<Button>(R.id.btnSetup).setOnClickListener {
+            startActivity(Intent(this, SetupWizardActivity::class.java))
+        }
         findViewById<Button>(R.id.btnSuscripcion).setOnClickListener {
             startActivity(Intent(this, SubscriptionActivity::class.java))
         }
+        findViewById<Button>(R.id.btnAdmin).setOnClickListener {
+            mostrarPinAdmin()
+        }
+
+        // Acceso admin - 5 toques en titulo
+        findViewById<TextView>(R.id.tvDriverProTitle)?.setOnClickListener {
+            val now = System.currentTimeMillis()
+            if (now - lastTapTime > 3000) tapCount = 0
+            lastTapTime = now
+            tapCount++
+            if (tapCount >= 5) { tapCount = 0; mostrarPinAdmin() }
+        }
+
+        // Iniciar Foreground Service
+        startBotService()
+
+        // Pedir excepcion de bateria (Samsung/Quitel fix)
+        pedirExcepcionBateria()
+
+        // Verificar licencia
+        verificarLicenciaAlArrancar()
+    }
+
+    private fun verificarLicenciaAlArrancar() {
+        LicenseManager.verificar(this) { activo, mensaje ->
+            if (!activo) {
+                // Bloquear interfaz
+                mostrarPantallaBloqueo(mensaje)
+            }
+        }
+    }
+
+    private fun mostrarPantallaBloqueo(mensaje: String) {
+        val dialog = AlertDialog.Builder(this)
+            .setTitle("Acceso Bloqueado")
+            .setMessage(mensaje)
+            .setCancelable(false)
+            .setPositiveButton("Ver Planes") { _, _ ->
+                startActivity(Intent(this, SubscriptionActivity::class.java))
+            }
+            .setNegativeButton("Salir") { _, _ -> finish() }
+            .create()
+        dialog.show()
+        dialog.getButton(AlertDialog.BUTTON_POSITIVE)?.setTextColor(0xFF2196F3.toInt())
+        dialog.getButton(AlertDialog.BUTTON_NEGATIVE)?.setTextColor(0xFFFF5252.toInt())
+    }
+
+    private fun startBotService() {
+        val serviceIntent = Intent(this, BotForegroundService::class.java)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(serviceIntent)
+        } else {
+            startService(serviceIntent)
+        }
+    }
+
+    private fun pedirExcepcionBateria() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            val pm = getSystemService(android.os.PowerManager::class.java)
+            if (!pm.isIgnoringBatteryOptimizations(packageName)) {
+                try {
+                    startActivity(Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,
+                        Uri.parse("package:\$packageName")))
+                } catch (e: Exception) {
+                    // Algunos Samsung no soportan esto directamente
+                    try {
+                        startActivity(Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS))
+                    } catch (e2: Exception) {}
+                }
+            }
+        }
+    }
+
+    private fun mostrarPinAdmin() {
+        val layout = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(60, 40, 60, 20)
+        }
+        val tvTitulo = TextView(this).apply {
+            text = "Panel Administrador"
+            textSize = 16f
+            setTextColor(0xFF2196F3.toInt())
+            typeface = android.graphics.Typeface.DEFAULT_BOLD
+            gravity = android.view.Gravity.CENTER
+            setPadding(0, 0, 0, 24)
+        }
+        val etPin = EditText(this).apply {
+            hint = "PIN de 4 dígitos"
+            inputType = InputType.TYPE_CLASS_NUMBER or InputType.TYPE_NUMBER_VARIATION_PASSWORD
+            maxLines = 1
+            filters = arrayOf(InputFilter.LengthFilter(4))
+            backgroundTintList = android.content.res.ColorStateList.valueOf(0xFF2196F3.toInt())
+            setTextColor(0xFFFFFFFF.toInt())
+            setHintTextColor(0xFF546E7A.toInt())
+            gravity = android.view.Gravity.CENTER
+            textSize = 24f
+        }
+        layout.addView(tvTitulo)
+        layout.addView(etPin)
+
+        val dialog = AlertDialog.Builder(this)
+            .setView(layout)
+            .setPositiveButton("ENTRAR") { _, _ ->
+                if (etPin.text.toString() == "8920") {
+                    startActivity(Intent(this, AdminActivity::class.java))
+                } else {
+                    Toast.makeText(this, "PIN incorrecto", Toast.LENGTH_SHORT).show()
+                }
+            }
+            .setNegativeButton("Cancelar", null)
+            .create()
+        dialog.show()
+        dialog.getButton(AlertDialog.BUTTON_POSITIVE)?.setTextColor(0xFF2196F3.toInt())
+        dialog.getButton(AlertDialog.BUTTON_NEGATIVE)?.setTextColor(0xFF607D8B.toInt())
     }
 
     override fun onResume() {
         super.onResume()
-        val filter = IntentFilter().apply {
+        val filter = android.content.IntentFilter().apply {
             addAction(FloatingPanel.ACTION_SYNC)
             addAction(FloatingPanel.ACTION_TRIP_ACCEPTED)
             addAction(FloatingPanel.ACTION_FILTERS_SAVED)
@@ -143,7 +256,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun isAccessibilityEnabled(): Boolean {
-        val enabled = Settings.Secure.getString(contentResolver, Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES) ?: return false
+        val enabled = Settings.Secure.getString(
+            contentResolver, Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES) ?: return false
         val splitter = TextUtils.SimpleStringSplitter(':')
         splitter.setString(enabled)
         while (splitter.hasNext()) {

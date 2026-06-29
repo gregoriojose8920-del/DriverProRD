@@ -7,37 +7,36 @@ import java.util.Date
 
 object LicenseManager {
 
-    private val db = FirebaseFirestore.getInstance()
+    fun verificar(context: Context, onResult: (activo: Boolean, mensaje: String) -> Unit) {
+        val deviceId = Settings.Secure.getString(
+            context.contentResolver, Settings.Secure.ANDROID_ID)
+        val db = FirebaseFirestore.getInstance()
 
-    fun getDeviceId(context: Context): String {
-        return Settings.Secure.getString(
-            context.contentResolver,
-            Settings.Secure.ANDROID_ID
-        )
-    }
-
-    fun checkLicense(context: Context, onResult: (LicenseStatus) -> Unit) {
-        val deviceId = getDeviceId(context)
         db.collection("licencias").document(deviceId).get()
             .addOnSuccessListener { doc ->
                 if (!doc.exists()) {
-                    onResult(LicenseStatus.NOT_FOUND)
+                    onResult(false, "Sin licencia activa\nContacta al administrador\nID: $deviceId")
                     return@addOnSuccessListener
                 }
-                val activa = doc.getBoolean("activa") ?: false
-                val expira = doc.getDate("expira")
+                val activo = doc.getBoolean("activo") ?: false
+                val expira = doc.getDate("fecha_expiracion")
+                val plan = doc.getString("plan") ?: ""
+
                 when {
-                    !activa -> onResult(LicenseStatus.INACTIVE)
-                    expira != null && expira.before(Date()) -> onResult(LicenseStatus.EXPIRED)
-                    else -> onResult(LicenseStatus.VALID)
+                    !activo -> onResult(false, "Licencia DESACTIVADA\nContacta al administrador")
+                    expira == null -> onResult(false, "Error en licencia\nContacta al administrador")
+                    expira.before(Date()) -> onResult(false, "Licencia EXPIRADA\nRenueva tu plan\nPlan anterior: $plan")
+                    else -> onResult(true, "Activo hasta: $expira")
                 }
             }
             .addOnFailureListener {
-                onResult(LicenseStatus.ERROR)
+                // Sin internet = permitir (modo offline)
+                onResult(true, "Modo offline")
             }
     }
 
-    enum class LicenseStatus {
-        VALID, EXPIRED, INACTIVE, NOT_FOUND, ERROR
+    fun getDeviceId(context: Context): String {
+        return Settings.Secure.getString(
+            context.contentResolver, Settings.Secure.ANDROID_ID)
     }
 }

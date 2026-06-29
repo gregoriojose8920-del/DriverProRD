@@ -12,11 +12,13 @@ color white
 drawable ic_launcher_foreground
 drawable logo
 drawable panel_background
+id adminContainer
 id btn1Ano
 id btn1Mes
 id btn3Meses
 id btn6Meses
 id btnAccessibility
+id btnAdmin
 id btnClearZonas
 id btnMapa
 id btnMinimize
@@ -50,6 +52,7 @@ id switchActive
 id switchBot
 id tvAccessStatus
 id tvBuscando
+id tvDriverProTitle
 id tvGanancias
 id tvLicencia
 id tvMapInfo
@@ -67,6 +70,7 @@ id txtAlerta
 id txtStatus
 id viewPulse
 id wizardContainer
+layout activity_admin
 layout activity_main
 layout activity_map
 layout activity_setup_wizard

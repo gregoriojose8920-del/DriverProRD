@@ -7,7 +7,7 @@
         <ImageView android:layout_width="90dp" android:layout_height="90dp"
             android:src="@mipmap/ic_launcher" android:layout_gravity="center" android:layout_marginTop="16dp"/>
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="DriverPro" android:textSize="30sp" android:textStyle="bold"
+            android:id="@+id/tvDriverProTitle" android:text="DriverPro" android:clickable="true" android:textSize="30sp" android:textStyle="bold"
             android:textColor="#2196F3" android:layout_gravity="center" android:layout_marginTop="8dp"/>
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="Asistente Inteligente para Conductores InDrive" android:textSize="12sp"
@@ -78,6 +78,14 @@
             android:layout_height="50dp" android:text="VER ESTADISTICAS DEL DIA"
             android:backgroundTint="#1B5E20" android:textColor="#A5D6A7"
             android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Administrador"
+            android:backgroundTint="#0D1117"
+            android:textColor="#263238"
+            android:textSize="11sp"
+            android:layout_marginBottom="4dp"/>
         <Button android:id="@+id/btnSuscripcion" android:layout_width="match_parent"
             android:layout_height="50dp" android:text="PLANES Y SUSCRIPCION"
             android:backgroundTint="#37474F" android:textColor="#90CAF9"
