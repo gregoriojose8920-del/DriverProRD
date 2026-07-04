@@ -22,17 +22,22 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCw2hXqxNiwFVIzN4C9sfezjQyfXu6Vixc"/>
-        <activity android:name=".MainActivity"
+        <activity android:name=".LoginActivity"
             android:exported="true"
-            android:resizeableActivity="false"
             android:screenOrientation="portrait"
-            android:configChanges="orientation|screenSize|keyboardHidden"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MainActivity"
+            android:exported="false"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"/>
         <activity android:name=".SubscriptionActivity"
             android:exported="false"
             android:resizeableActivity="false"

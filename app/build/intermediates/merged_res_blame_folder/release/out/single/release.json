@@ -8,6 +8,10 @@
         "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-39:/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "com.mxl.driverpro.app-merged_res-38:/layout_activity_login.xml.flat",
+        "source": "com.mxl.driverpro.app-main-39:/layout/activity_login.xml"
+    },
+    {
         "merged": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-merged_res-38:/layout_activity_main.xml.flat",
         "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mxl.driverpro.app-merged_res-38:/layout_activity_register.xml.flat",
+        "source": "com.mxl.driverpro.app-main-39:/layout/activity_register.xml"
     },
     {
         "merged": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
@@ -54,10 +62,6 @@
     {
         "merged": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-merged_res-38:/layout_floating_layout.xml.flat",
         "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-39:/layout/floating_layout.xml"
-    },
-    {
-        "merged": "com.mxl.driverpro.app-merged_res-38:/layout_activity_main.xml.flat",
-        "source": "com.mxl.driverpro.app-main-39:/layout/activity_main.xml"
     },
     {
         "merged": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-merged_res-38:/layout_activity_stats.xml.flat",

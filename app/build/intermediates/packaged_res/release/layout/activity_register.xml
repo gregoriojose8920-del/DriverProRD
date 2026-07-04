@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#0A0E1A">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="28dp">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="CREAR CUENTA" android:textSize="24sp" android:textStyle="bold"
+            android:textColor="#2196F3" android:gravity="center"
+            android:layout_marginTop="24dp" android:layout_marginBottom="8dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Regístrate para empezar a usar DriverPro"
+            android:textSize="13sp" android:textColor="#607D8B"
+            android:gravity="center" android:layout_marginBottom="32dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="DATOS PERSONALES" android:textColor="#2196F3"
+            android:textSize="11sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+
+        <EditText android:id="@+id/etNombre"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Nombre completo" android:textColorHint="#546E7A"
+            android:textColor="#FFFFFF" android:inputType="textPersonName"
+            android:backgroundTint="#2196F3" android:paddingBottom="8dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText android:id="@+id/etTelefono"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Teléfono (809-xxx-xxxx)" android:textColorHint="#546E7A"
+            android:textColor="#FFFFFF" android:inputType="phone"
+            android:backgroundTint="#2196F3" android:paddingBottom="8dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText android:id="@+id/etVehiculoReg"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Tu vehículo (ej: Honda Wave 110)" android:textColorHint="#546E7A"
+            android:textColor="#FFFFFF" android:inputType="text"
+            android:backgroundTint="#2196F3" android:paddingBottom="8dp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="DATOS DE ACCESO" android:textColor="#2196F3"
+            android:textSize="11sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+
+        <EditText android:id="@+id/etCorreoReg"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Correo electrónico" android:textColorHint="#546E7A"
+            android:textColor="#FFFFFF" android:inputType="textEmailAddress"
+            android:backgroundTint="#2196F3" android:paddingBottom="8dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText android:id="@+id/etPasswordReg"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:hint="Contraseña (mínimo 6 caracteres)" android:textColorHint="#546E7A"
+            android:textColor="#FFFFFF" android:inputType="textPassword"
+            android:backgroundTint="#2196F3" android:paddingBottom="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView android:id="@+id/tvErrorReg"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="" android:textColor="#FF5252" android:textSize="13sp"
+            android:gravity="center" android:layout_marginBottom="12dp"
+            android:visibility="gone"/>
+
+        <ProgressBar android:id="@+id/progressReg"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_gravity="center" android:visibility="gone"
+            android:layout_marginBottom="8dp"/>
+
+        <Button android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent" android:layout_height="54dp"
+            android:text="CREAR MI CUENTA" android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF" android:textStyle="bold"
+            android:textSize="16sp" android:layout_marginBottom="12dp"/>
+
+        <Button android:id="@+id/btnVolverLogin"
+            android:layout_width="match_parent" android:layout_height="48dp"
+            android:text="YA TENGO CUENTA" android:backgroundTint="#1A2035"
+            android:textColor="#90CAF9" android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

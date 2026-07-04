@@ -53,11 +53,9 @@
             android:value="AIzaSyCw2hXqxNiwFVIzN4C9sfezjQyfXu6Vixc" />
 
         <activity
-            android:name="com.mxl.driverpro.MainActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:name="com.mxl.driverpro.LoginActivity"
             android:exported="true"
             android:launchMode="singleTop"
-            android:resizeableActivity="false"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,6 +63,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.mxl.driverpro.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mxl.driverpro.SubscriptionActivity"
             android:exported="false"

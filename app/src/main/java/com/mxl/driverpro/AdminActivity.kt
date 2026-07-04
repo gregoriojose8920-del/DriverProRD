@@ -1,7 +1,6 @@
 package com.mxl.driverpro
 
 import android.os.Bundle
-import android.provider.Settings
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.firestore.FirebaseFirestore
@@ -10,35 +9,36 @@ import java.util.*
 class AdminActivity : AppCompatActivity() {
 
     private val db = FirebaseFirestore.getInstance()
-    private val ADMIN_PASSWORD = "8920"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin)
-        verificarAdmin()
+        mostrarLogin()
     }
 
-    private fun verificarAdmin() {
+    private fun mostrarLogin() {
         val container = findViewById<LinearLayout>(R.id.adminContainer)
         container.removeAllViews()
 
-        // Password de acceso
-        val tvTitulo = TextView(this).apply {
+        container.addView(TextView(this).apply {
             text = "Panel Administrador"
             textSize = 22f
             setTextColor(0xFF2196F3.toInt())
             typeface = android.graphics.Typeface.DEFAULT_BOLD
             gravity = android.view.Gravity.CENTER
             setPadding(0, 24, 0, 16)
-        }
+        })
 
-        val etPass = EditText(this).apply {
-            hint = "Contraseña de admin"
-            inputType = android.text.InputType.TYPE_CLASS_NUMBER or android.text.InputType.TYPE_NUMBER_VARIATION_PASSWORD
+        val etPin = EditText(this).apply {
+            hint = "PIN de 4 digitos"
+            inputType = android.text.InputType.TYPE_CLASS_NUMBER or
+                android.text.InputType.TYPE_NUMBER_VARIATION_PASSWORD
             backgroundTintList = android.content.res.ColorStateList.valueOf(0xFF2196F3.toInt())
             setTextColor(0xFFFFFFFF.toInt())
             setHintTextColor(0xFF546E7A.toInt())
-            setPadding(0, 8, 0, 8)
+            gravity = android.view.Gravity.CENTER
+            textSize = 24f
+            filters = arrayOf(android.text.InputFilter.LengthFilter(4))
         }
 
         val btnEntrar = Button(this).apply {
@@ -48,25 +48,23 @@ class AdminActivity : AppCompatActivity() {
             layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT, 130).apply { setMargins(0, 16, 0, 0) }
             setOnClickListener {
-                if (etPass.text.toString() == ADMIN_PASSWORD) {
-                    mostrarPanel(container)
+                if (etPin.text.toString() == "8920") {
+                    mostrarPanel()
                 } else {
-                    Toast.makeText(this@AdminActivity, "Contraseña incorrecta", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@AdminActivity, "PIN incorrecto", Toast.LENGTH_SHORT).show()
                 }
             }
         }
-
-        container.addView(tvTitulo)
-        container.addView(etPass)
+        container.addView(etPin)
         container.addView(btnEntrar)
     }
 
-    private fun mostrarPanel(container: LinearLayout) {
+    private fun mostrarPanel() {
+        val container = findViewById<LinearLayout>(R.id.adminContainer)
         container.removeAllViews()
 
-        // Titulo
         container.addView(TextView(this).apply {
-            text = "Gestión de Licencias"
+            text = "Gestion de Licencias"
             textSize = 20f
             setTextColor(0xFF2196F3.toInt())
             typeface = android.graphics.Typeface.DEFAULT_BOLD
@@ -74,198 +72,172 @@ class AdminActivity : AppCompatActivity() {
             setPadding(0, 16, 0, 24)
         })
 
-        // ACTIVAR LICENCIA
-        container.addView(TextView(this).apply {
-            text = "ACTIVAR LICENCIA"
-            textSize = 13f
-            setTextColor(0xFF4CAF50.toInt())
-            typeface = android.graphics.Typeface.DEFAULT_BOLD
-            setPadding(0, 8, 0, 8)
-        })
-
-        val etDeviceId = EditText(this).apply {
-            hint = "Device ID del cliente"
-            backgroundTintList = android.content.res.ColorStateList.valueOf(0xFF4CAF50.toInt())
-            setTextColor(0xFFFFFFFF.toInt())
-            setHintTextColor(0xFF546E7A.toInt())
-            setPadding(0, 8, 0, 8)
-        }
-
-        // Selector de plan
-        val spinnerPlan = Spinner(this)
-        val planes = arrayOf(
-            "1 Mes - RD\$500",
-            "3 Meses - RD\$1,300",
-            "6 Meses - RD\$2,400",
-            "1 Año - RD\$4,200"
-        )
-        val diasPlan = intArrayOf(30, 90, 180, 365)
-        spinnerPlan.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, planes)
-        spinnerPlan.backgroundTintList = android.content.res.ColorStateList.valueOf(0xFF2196F3.toInt())
-
-        val btnActivar = Button(this).apply {
-            text = "ACTIVAR AHORA"
-            backgroundTintList = android.content.res.ColorStateList.valueOf(0xFF2E7D32.toInt())
-            setTextColor(0xFFFFFFFF.toInt())
-            textSize = 15f
-            typeface = android.graphics.Typeface.DEFAULT_BOLD
-            layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, 130).apply { setMargins(0, 12, 0, 0) }
-            setOnClickListener {
-                val deviceId = etDeviceId.text.toString().trim()
-                if (deviceId.isEmpty()) {
-                    Toast.makeText(this@AdminActivity, "Ingresa el Device ID", Toast.LENGTH_SHORT).show()
-                    return@setOnClickListener
-                }
-                val planIdx = spinnerPlan.selectedItemPosition
-                val dias = diasPlan[planIdx]
-                val planNombre = planes[planIdx]
-                activarLicencia(deviceId, dias, planNombre, container)
+        // ACTIVAR
+        container.addView(labelView("ACTIVAR LICENCIA", 0xFF4CAF50.toInt()))
+        val etDeviceId = inputView("Device ID del cliente", 0xFF4CAF50.toInt())
+        val planes = arrayOf("1 Mes - RD500", "3 Meses - RD1300", "6 Meses - RD2400", "1 Ano - RD4200")
+        val dias = intArrayOf(30, 90, 180, 365)
+        val spinner = Spinner(this)
+        spinner.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, planes)
+        val btnActivar = botonView("ACTIVAR AHORA", 0xFF2E7D32.toInt()) {
+            val id = etDeviceId.text.toString().trim()
+            if (id.isEmpty()) {
+                Toast.makeText(this, "Ingresa el Device ID", Toast.LENGTH_SHORT).show()
+                return@botonView
             }
+            val idx = spinner.selectedItemPosition
+            activar(id, dias[idx], planes[idx])
         }
-
         container.addView(etDeviceId)
-        container.addView(spinnerPlan)
+        container.addView(spinner)
         container.addView(btnActivar)
 
-        // DESACTIVAR LICENCIA
-        container.addView(TextView(this).apply {
-            text = "DESACTIVAR LICENCIA"
-            textSize = 13f
-            setTextColor(0xFFFF5252.toInt())
-            typeface = android.graphics.Typeface.DEFAULT_BOLD
-            setPadding(0, 24, 0, 8)
-        })
-
-        val etDeviceIdDes = EditText(this).apply {
-            hint = "Device ID a desactivar"
-            backgroundTintList = android.content.res.ColorStateList.valueOf(0xFFFF5252.toInt())
-            setTextColor(0xFFFFFFFF.toInt())
-            setHintTextColor(0xFF546E7A.toInt())
-            setPadding(0, 8, 0, 8)
-        }
-
-        val btnDesactivar = Button(this).apply {
-            text = "DESACTIVAR"
-            backgroundTintList = android.content.res.ColorStateList.valueOf(0xFFB71C1C.toInt())
-            setTextColor(0xFFFFFFFF.toInt())
-            textSize = 15f
-            layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, 130).apply { setMargins(0, 12, 0, 0) }
-            setOnClickListener {
-                val deviceId = etDeviceIdDes.text.toString().trim()
-                if (deviceId.isEmpty()) {
-                    Toast.makeText(this@AdminActivity, "Ingresa el Device ID", Toast.LENGTH_SHORT).show()
-                    return@setOnClickListener
-                }
-                desactivarLicencia(deviceId, container)
+        // DESACTIVAR
+        container.addView(labelView("DESACTIVAR LICENCIA", 0xFFFF5252.toInt()))
+        val etDes = inputView("Device ID a desactivar", 0xFFFF5252.toInt())
+        val btnDes = botonView("DESACTIVAR", 0xFFB71C1C.toInt()) {
+            val id = etDes.text.toString().trim()
+            if (id.isEmpty()) {
+                Toast.makeText(this, "Ingresa el Device ID", Toast.LENGTH_SHORT).show()
+                return@botonView
             }
+            desactivar(id)
         }
+        container.addView(etDes)
+        container.addView(btnDes)
 
-        container.addView(etDeviceIdDes)
-        container.addView(btnDesactivar)
-
-        // VER TODOS LOS CLIENTES
-        container.addView(TextView(this).apply {
-            text = "CLIENTES ACTIVOS"
-            textSize = 13f
-            setTextColor(0xFF90CAF9.toInt())
-            typeface = android.graphics.Typeface.DEFAULT_BOLD
-            setPadding(0, 24, 0, 8)
-        })
-
-        val btnVerClientes = Button(this).apply {
-            text = "VER TODOS LOS CLIENTES"
-            backgroundTintList = android.content.res.ColorStateList.valueOf(0xFF1565C0.toInt())
-            setTextColor(0xFFFFFFFF.toInt())
-            layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT, 120).apply { setMargins(0, 8, 0, 0) }
-            setOnClickListener { cargarClientes(container) }
+        // CONDUCTORES REGISTRADOS
+        container.addView(labelView("CONDUCTORES REGISTRADOS", 0xFFCE93D8.toInt()))
+        val tvConductores = resultView()
+        val btnCond = botonView("VER TODOS LOS REGISTROS", 0xFF4A148C.toInt()) {
+            db.collection("conductores").get()
+                .addOnSuccessListener { docs ->
+                    if (docs.isEmpty) {
+                        tvConductores.text = "Sin registros"
+                        return@addOnSuccessListener
+                    }
+                    val sb = StringBuilder()
+                    sb.append("Total: ")
+                    sb.append(docs.size())
+                    sb.append("\n\n")
+                    for (doc in docs) {
+                        sb.append("Nombre: ")
+                        sb.append(doc.getString("nombre") ?: "N/A")
+                        sb.append("\nCorreo: ")
+                        sb.append(doc.getString("correo") ?: "N/A")
+                        sb.append("\nTel: ")
+                        sb.append(doc.getString("telefono") ?: "N/A")
+                        sb.append("\nVehiculo: ")
+                        sb.append(doc.getString("vehiculo") ?: "N/A")
+                        sb.append("\nID: ")
+                        sb.append(doc.getString("device_id") ?: "N/A")
+                        sb.append("\n---\n")
+                    }
+                    tvConductores.text = sb.toString()
+                }
+                .addOnFailureListener {
+                    Toast.makeText(this, "Error cargando conductores", Toast.LENGTH_SHORT).show()
+                }
         }
-        container.addView(btnVerClientes)
+        container.addView(btnCond)
+        container.addView(tvConductores)
+
+        // CLIENTES ACTIVOS
+        container.addView(labelView("CLIENTES ACTIVOS", 0xFF90CAF9.toInt()))
+        val tvClientes = resultView()
+        val btnClientes = botonView("VER TODOS LOS CLIENTES", 0xFF1565C0.toInt()) {
+            db.collection("licencias").whereEqualTo("activo", true).get()
+                .addOnSuccessListener { docs ->
+                    if (docs.isEmpty) {
+                        tvClientes.text = "Sin clientes activos"
+                        return@addOnSuccessListener
+                    }
+                    val sb = StringBuilder()
+                    sb.append("Total activos: ")
+                    sb.append(docs.size())
+                    sb.append("\n\n")
+                    for (doc in docs) {
+                        val shortId = doc.id.take(8) + "..."
+                        val nombrePlan = doc.getString("plan") ?: "N/A"
+                        val fechaExp = doc.getDate("fecha_expiracion")
+                        sb.append("ID: ")
+                        sb.append(shortId)
+                        sb.append("\nPlan: ")
+                        sb.append(nombrePlan)
+                        sb.append("\nExpira: ")
+                        sb.append(fechaExp)
+                        sb.append("\n---\n")
+                    }
+                    tvClientes.text = sb.toString()
+                }
+                .addOnFailureListener {
+                    Toast.makeText(this, "Error cargando clientes", Toast.LENGTH_SHORT).show()
+                }
+        }
+        container.addView(btnClientes)
+        container.addView(tvClientes)
     }
 
-    private fun activarLicencia(deviceId: String, dias: Int, plan: String, container: LinearLayout) {
-        val cal = Calendar.getInstance()
-        cal.add(Calendar.DAY_OF_YEAR, dias)
-        val expira = cal.time
+    private fun labelView(texto: String, color: Int) = TextView(this).apply {
+        text = texto
+        textSize = 13f
+        setTextColor(color)
+        typeface = android.graphics.Typeface.DEFAULT_BOLD
+        setPadding(0, 24, 0, 8)
+    }
 
+    private fun inputView(hint: String, color: Int) = EditText(this).apply {
+        this.hint = hint
+        backgroundTintList = android.content.res.ColorStateList.valueOf(color)
+        setTextColor(0xFFFFFFFF.toInt())
+        setHintTextColor(0xFF546E7A.toInt())
+        setPadding(0, 8, 0, 8)
+    }
+
+    private fun resultView() = TextView(this).apply {
+        setTextColor(0xFFFFFFFF.toInt())
+        textSize = 12f
+        setPadding(0, 8, 0, 8)
+    }
+
+    private fun botonView(texto: String, color: Int, action: () -> Unit) = Button(this).apply {
+        text = texto
+        backgroundTintList = android.content.res.ColorStateList.valueOf(color)
+        setTextColor(0xFFFFFFFF.toInt())
+        layoutParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT, 120).apply { setMargins(0, 8, 0, 0) }
+        setOnClickListener { action() }
+    }
+
+    private fun activar(deviceId: String, diasNum: Int, nombrePlan: String) {
+        val cal = Calendar.getInstance()
+        cal.add(Calendar.DAY_OF_YEAR, diasNum)
         val data = hashMapOf(
             "device_id" to deviceId,
-            "plan" to plan,
-            "dias" to dias,
+            "plan" to nombrePlan,
+            "dias" to diasNum,
             "activo" to true,
             "automatico_activo" to true,
             "fecha_activacion" to Date(),
-            "fecha_expiracion" to expira,
+            "fecha_expiracion" to cal.time,
             "activado_por" to "admin"
         )
-
-        db.collection("licencias").document(deviceId)
-            .set(data)
+        db.collection("licencias").document(deviceId).set(data)
             .addOnSuccessListener {
-                Toast.makeText(this,
-                    "✅ Licencia ACTIVADA\n$plan\nExpira: $expira",
-                    Toast.LENGTH_LONG).show()
-                // Log en Firebase
-                db.collection("logs_admin").add(mapOf(
-                    "accion" to "ACTIVAR",
-                    "device_id" to deviceId,
-                    "plan" to plan,
-                    "fecha" to Date()
-                ))
+                Toast.makeText(this, "Licencia ACTIVADA: " + nombrePlan, Toast.LENGTH_LONG).show()
             }
-            .addOnFailureListener {
-                Toast.makeText(this, "Error: " + it.message, Toast.LENGTH_LONG).show()
+            .addOnFailureListener { e ->
+                Toast.makeText(this, "Error: " + e.message, Toast.LENGTH_LONG).show()
             }
     }
 
-    private fun desactivarLicencia(deviceId: String, container: LinearLayout) {
-        db.collection("licencias").document(deviceId)
-            .update("activo", false)
+    private fun desactivar(deviceId: String) {
+        db.collection("licencias").document(deviceId).update("activo", false)
             .addOnSuccessListener {
-                Toast.makeText(this, "❌ Licencia DESACTIVADA", Toast.LENGTH_SHORT).show()
-                db.collection("logs_admin").add(mapOf(
-                    "accion" to "DESACTIVAR",
-                    "device_id" to deviceId,
-                    "fecha" to Date()
-                ))
+                Toast.makeText(this, "Licencia DESACTIVADA", Toast.LENGTH_SHORT).show()
             }
-            .addOnFailureListener {
-                Toast.makeText(this, "Error: " + it.message, Toast.LENGTH_LONG).show()
-            }
-    }
-
-    private fun cargarClientes(container: LinearLayout) {
-        db.collection("licencias")
-            .whereEqualTo("activo", true)
-            .get()
-            .addOnSuccessListener { docs ->
-                val tvResultado = TextView(this).apply {
-                    text = "Cargando..."
-                    setTextColor(0xFFFFFFFF.toInt())
-                    textSize = 12f
-                    setPadding(0, 8, 0, 8)
-                }
-                container.addView(tvResultado)
-
-                if (docs.isEmpty) {
-                    tvResultado.text = "Sin clientes activos"
-                    return@addOnSuccessListener
-                }
-
-                val sb = StringBuilder()
-                sb.append("Total activos: " + docs.size() + "\n\n")
-                for (doc in docs) {
-                    val plan = doc.getString("plan") ?: "N/A"
-                    val expira = doc.getDate("fecha_expiracion")
-                    val id = doc.id.take(8) + "..."
-                    sb.append("ID: " + id + "\nPlan: " + plan + "\nExpira: " + expira + "\n---\n")
-                }
-                tvResultado.text = sb.toString()
-            }
-            .addOnFailureListener {
-                Toast.makeText(this, "Error: " + it.message, Toast.LENGTH_SHORT).show()
+            .addOnFailureListener { e ->
+                Toast.makeText(this, "Error: " + e.message, Toast.LENGTH_LONG).show()
             }
     }
 }

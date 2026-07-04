@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:2:1-78:12
-INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:2:1-78:12
-INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:2:1-78:12
-INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:2:1-78:12
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:2:1-83:12
+INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:2:1-83:12
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.android.material:material:1.11.0] /home/josecolorvision/.gradle/caches/transforms-3/7049149f2b12c11adbc586618ce51495/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /home/josecolorvision/.gradle/caches/transforms-3/b2cad7635167dc58d1bbfc951a2cbe63/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:2:1-17:12
@@ -124,8 +124,8 @@ ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.
 	android:name
 		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:13:22-78
 application
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:15:5-77:19
-INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:15:5-77:19
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:15:5-82:19
+INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:15:5-82:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.0] /home/josecolorvision/.gradle/caches/transforms-3/c8927cb1e51fe6977a627c44052936c1/transformed/jetified-firebase-firestore-ktx-24.10.0/AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.android.material:material:1.11.0] /home/josecolorvision/.gradle/caches/transforms-3/7049149f2b12c11adbc586618ce51495/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
@@ -194,114 +194,124 @@ ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.
 		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:24:13-68
 	android:name
 		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:23:13-58
-activity#com.mxl.driverpro.MainActivity
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:25:9-35:20
+activity#com.mxl.driverpro.LoginActivity
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:25:9-33:20
 	android:screenOrientation
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:28:13-49
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:27:13-49
 	android:launchMode
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:30:13-43
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:28:13-43
 	android:exported
 		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:26:13-36
-	android:resizeableActivity
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:27:13-47
-	android:configChanges
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:29:13-74
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:25:19-47
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:25:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:31:13-34:29
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:29:13-32:29
 action#android.intent.action.MAIN
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:32:17-69
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:32:25-66
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:33:17-77
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:33:27-74
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:31:27-74
+activity#com.mxl.driverpro.MainActivity
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:35:9-40:45
+	android:screenOrientation
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:38:13-49
+	android:launchMode
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:40:13-43
+	android:exported
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:36:13-37
+	android:resizeableActivity
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:37:13-47
+	android:configChanges
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:39:13-74
+	android:name
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:35:19-47
 activity#com.mxl.driverpro.SubscriptionActivity
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:36:9-39:51
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:41:9-44:51
 	android:screenOrientation
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:39:13-49
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:44:13-49
 	android:exported
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:37:13-37
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:42:13-37
 	android:resizeableActivity
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:38:13-47
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:43:13-47
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:36:19-55
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:41:19-55
 activity#com.mxl.driverpro.StatsActivity
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:40:9-43:51
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:45:9-48:51
 	android:screenOrientation
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:43:13-49
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:48:13-49
 	android:exported
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:41:13-37
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:46:13-37
 	android:resizeableActivity
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:42:13-47
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:47:13-47
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:40:19-48
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:45:19-48
 activity#com.mxl.driverpro.MapActivity
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:44:9-47:51
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:49:9-52:51
 	android:screenOrientation
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:47:13-49
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:52:13-49
 	android:exported
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:45:13-37
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:50:13-37
 	android:resizeableActivity
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:46:13-47
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:51:13-47
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:44:19-46
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:49:19-46
 activity#com.mxl.driverpro.SetupWizardActivity
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:48:9-51:51
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:53:9-56:51
 	android:screenOrientation
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:56:13-49
 	android:exported
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:49:13-37
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:54:13-37
 	android:resizeableActivity
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:50:13-47
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:55:13-47
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:48:19-54
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:53:19-54
 activity#com.mxl.driverpro.AdminActivity
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:52:9-55:51
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:57:9-60:51
 	android:screenOrientation
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:55:13-49
-	android:exported
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:53:13-37
-	android:resizeableActivity
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:54:13-47
-	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:52:19-48
-service#com.mxl.driverpro.BotForegroundService
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:56:9-63:19
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:60:13-49
 	android:exported
 		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:58:13-37
-	android:foregroundServiceType
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:59:13-55
+	android:resizeableActivity
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:59:13-47
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:57:13-49
-property
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:60:13-62:46
-	android:value
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:62:17-44
-	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:61:17-76
-service#com.mxl.driverpro.logic.ActionEngine
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:65:9-76:19
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:57:19-48
+service#com.mxl.driverpro.BotForegroundService
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:61:9-68:19
 	android:exported
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:67:13-36
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:63:13-37
+	android:foregroundServiceType
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:64:13-55
+	android:name
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:62:13-49
+property
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:65:13-67:46
+	android:value
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:67:17-44
+	android:name
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:66:17-76
+service#com.mxl.driverpro.logic.ActionEngine
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:70:9-81:19
+	android:exported
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:72:13-36
 	android:permission
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:68:13-79
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:73:13-79
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:66:13-47
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:71:13-47
 intent-filter#action:name:android.accessibilityservice.AccessibilityService
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:71:13-73:29
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:76:13-78:29
 action#android.accessibilityservice.AccessibilityService
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:72:17-92
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:77:17-92
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:72:25-89
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:77:25-89
 meta-data#android.accessibilityservice
-ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:74:13-75:72
+ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:79:13-80:72
 	android:resource
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:75:17-69
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:80:17-69
 	android:name
-		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:74:24-67
+		ADDED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml:79:24-67
 uses-sdk
 INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/josecolorvision/DriverProRD_nuevo/app/src/main/AndroidManifest.xml

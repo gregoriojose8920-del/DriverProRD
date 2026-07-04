@@ -3271,9 +3271,12 @@ id btn6Meses
 id btnAccessibility
 id btnAdmin
 id btnClearZonas
+id btnIrRegistro
+id btnLogin
 id btnMapa
 id btnMinimize
 id btnOverlay
+id btnRegistrar
 id btnResetStats
 id btnSave
 id btnSaveFilters
@@ -3283,6 +3286,7 @@ id btnStats
 id btnSuscripcion
 id btnToggleBloqueo
 id btnToggleHeatmap
+id btnVolverLogin
 id btnVolverMap
 id btnVolverStats
 id buttonPanel
@@ -3371,10 +3375,17 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etCorreo
+id etCorreoReg
 id etMaxDist
 id etMinPrice
 id etMinRating
+id etNombre
+id etPassword
+id etPasswordReg
 id etSearchLocation
+id etTelefono
+id etVehiculoReg
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3558,6 +3569,8 @@ id pin
 id position
 id postLayout
 id pressed
+id progressLogin
+id progressReg
 id progress_circular
 id progress_horizontal
 id radio
@@ -3685,6 +3698,8 @@ id triangle
 id tvAccessStatus
 id tvBuscando
 id tvDriverProTitle
+id tvErrorLogin
+id tvErrorReg
 id tvGanancias
 id tvLicencia
 id tvMapInfo
@@ -3844,8 +3859,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin
+layout activity_login
 layout activity_main
 layout activity_map
+layout activity_register
 layout activity_setup_wizard
 layout activity_stats
 layout activity_subscription
