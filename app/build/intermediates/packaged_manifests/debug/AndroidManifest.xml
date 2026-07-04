@@ -12,6 +12,11 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
@@ -50,7 +55,11 @@
 
         <activity
             android:name="com.mxl.driverpro.MainActivity"
-            android:exported="true" >
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -59,21 +68,44 @@
         </activity>
         <activity
             android:name="com.mxl.driverpro.SubscriptionActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mxl.driverpro.StatsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mxl.driverpro.MapActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.mxl.driverpro.SetupWizardActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mxl.driverpro.AdminActivity"
+            android:exported="false"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait" />
 
+        <service
+            android:name="com.mxl.driverpro.BotForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse" >
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="bot_service" />
+        </service>
         <service
             android:name="com.mxl.driverpro.logic.ActionEngine"
             android:exported="true"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
             </intent-filter>

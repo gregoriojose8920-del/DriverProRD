@@ -10,7 +10,7 @@ import java.util.*
 class AdminActivity : AppCompatActivity() {
 
     private val db = FirebaseFirestore.getInstance()
-    private val ADMIN_PASSWORD = "MXL2026admin"
+    private val ADMIN_PASSWORD = "8920"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,8 +34,7 @@ class AdminActivity : AppCompatActivity() {
 
         val etPass = EditText(this).apply {
             hint = "Contraseña de admin"
-            inputType = android.text.InputType.TYPE_CLASS_TEXT or
-                android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD
+            inputType = android.text.InputType.TYPE_CLASS_NUMBER or android.text.InputType.TYPE_NUMBER_VARIATION_PASSWORD
             backgroundTintList = android.content.res.ColorStateList.valueOf(0xFF2196F3.toInt())
             setTextColor(0xFFFFFFFF.toInt())
             setHintTextColor(0xFF546E7A.toInt())

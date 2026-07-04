@@ -36,6 +36,10 @@
         "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-40:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "com.mxl.driverpro.app-merged_res-38:/layout_activity_admin.xml.flat",
+        "source": "com.mxl.driverpro.app-main-40:/layout/activity_admin.xml"
+    },
+    {
         "merged": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-merged_res-38:/layout_activity_map.xml.flat",
         "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-40:/layout/activity_map.xml"
     },
@@ -68,6 +72,10 @@
         "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-merged_res-38:/layout_activity_setup_wizard.xml.flat",
+        "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-40:/layout/activity_setup_wizard.xml"
+    },
+    {
         "merged": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-merged_res-38:/drawable_panel_background.xml.flat",
         "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-40:/drawable/panel_background.xml"
     },
@@ -78,9 +86,5 @@
     {
         "merged": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-merged_res-38:/drawable_logo.png.flat",
         "source": "/home/josecolorvision/.gradle/daemon/8.2/com.mxl.driverpro.app-main-40:/drawable/logo.png"
-    },
-    {
-        "merged": "com.mxl.driverpro.app-merged_res-38:/layout_activity_setup_wizard.xml.flat",
-        "source": "com.mxl.driverpro.app-main-40:/layout/activity_setup_wizard.xml"
     }
 ]
