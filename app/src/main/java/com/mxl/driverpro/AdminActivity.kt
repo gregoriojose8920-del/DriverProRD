@@ -255,12 +255,12 @@ class AdminActivity : AppCompatActivity() {
                 }
 
                 val sb = StringBuilder()
-                sb.append("Total activos: \${docs.size()}\n\n")
+                sb.append("Total activos: " + docs.size() + "\n\n")
                 for (doc in docs) {
                     val plan = doc.getString("plan") ?: "N/A"
                     val expira = doc.getDate("fecha_expiracion")
                     val id = doc.id.take(8) + "..."
-                    sb.append("ID: \$id\nPlan: \$plan\nExpira: \$expira\n---\n")
+                    sb.append("ID: " + id + "\nPlan: " + plan + "\nExpira: " + expira + "\n---\n")
                 }
                 tvResultado.text = sb.toString()
             }
