@@ -117,6 +117,9 @@ class MainActivity : AppCompatActivity() {
             if (tapCount >= 5) { tapCount = 0; mostrarPinAdmin() }
         }
 
+        // VERIFICACION DE SEGURIDAD - 3 capas
+        verificarSeguridad()
+
         // Iniciar Foreground Service
         startBotService()
 
@@ -125,6 +128,21 @@ class MainActivity : AppCompatActivity() {
 
         // Verificar licencia
         verificarLicenciaAlArrancar()
+    }
+
+    private fun verificarSeguridad() {
+        val resultado = SecurityManager.verificarSeguridad(this)
+        if (!resultado.aprobado) {
+            android.app.AlertDialog.Builder(this)
+                .setTitle("Acceso Denegado")
+                .setMessage(resultado.mensaje)
+                .setCancelable(false)
+                .setPositiveButton("Salir") { _, _ -> 
+                    finishAffinity()
+                    android.os.Process.killProcess(android.os.Process.myPid())
+                }
+                .show()
+        }
     }
 
     private fun verificarLicenciaAlArrancar() {
