@@ -1,8 +1,10 @@
 package com.mxl.driverpro
 
-import android.app.AlertDialog
+import android.content.BroadcastReceiver
 import android.content.ComponentName
+import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
 import android.content.SharedPreferences
 import android.net.Uri
 import android.os.Build
@@ -12,18 +14,20 @@ import android.text.InputFilter
 import android.text.InputType
 import android.text.TextUtils
 import android.widget.*
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.mxl.driverpro.logic.FloatingPanel
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var prefs: SharedPreferences
     private lateinit var switchBot: Switch
     private lateinit var tvTrips: TextView
     private var tapCount = 0
     private var lastTapTime = 0L
 
-    private val panelReceiver = object : android.content.BroadcastReceiver() {
-        override fun onReceive(context: android.content.Context, intent: Intent) {
+    private val panelReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context, intent: Intent) {
             when (intent.action) {
                 FloatingPanel.ACTION_SYNC -> {
                     val active = intent.getBooleanExtra(FloatingPanel.EXTRA_ACTIVE, true)
@@ -71,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.btnOverlay).setOnClickListener {
-            startActivity(Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:\$packageName")))
+            startActivity(Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, Uri.parse("package:$packageName")))
         }
         findViewById<Button>(R.id.btnAccessibility).setOnClickListener {
             startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
@@ -92,7 +96,7 @@ class MainActivity : AppCompatActivity() {
                 putExtra(FloatingPanel.EXTRA_RATING, rating)
             })
         }
-        findViewById<Button>(R.id.btnMapa).setOnClickListener {
+findViewById<Button>(R.id.btnMapa).setOnClickListener {
             startActivity(Intent(this, MapActivity::class.java))
         }
         findViewById<Button>(R.id.btnStats).setOnClickListener {
@@ -108,7 +112,6 @@ class MainActivity : AppCompatActivity() {
             mostrarPinAdmin()
         }
 
-        // Acceso admin - 5 toques en titulo
         findViewById<TextView>(R.id.tvDriverProTitle)?.setOnClickListener {
             val now = System.currentTimeMillis()
             if (now - lastTapTime > 3000) tapCount = 0
@@ -117,27 +120,18 @@ class MainActivity : AppCompatActivity() {
             if (tapCount >= 5) { tapCount = 0; mostrarPinAdmin() }
         }
 
-        // VERIFICACION DE SEGURIDAD - 3 capas
         verificarSeguridad()
-
-        // Iniciar Foreground Service
-        startBotService()
-
-        // Pedir excepcion de bateria (Samsung/Quitel fix)
-        pedirExcepcionBateria()
-
-        // Verificar licencia
         verificarLicenciaAlArrancar()
     }
 
     private fun verificarSeguridad() {
         val resultado = SecurityManager.verificarSeguridad(this)
         if (!resultado.aprobado) {
-            android.app.AlertDialog.Builder(this)
+            AlertDialog.Builder(this)
                 .setTitle("Acceso Denegado")
                 .setMessage(resultado.mensaje)
                 .setCancelable(false)
-                .setPositiveButton("Salir") { _, _ -> 
+                .setPositiveButton("Salir") { _, _ ->
                     finishAffinity()
                     android.os.Process.killProcess(android.os.Process.myPid())
                 }
@@ -148,49 +142,15 @@ class MainActivity : AppCompatActivity() {
     private fun verificarLicenciaAlArrancar() {
         LicenseManager.verificar(this) { activo, mensaje ->
             if (!activo) {
-                // Bloquear interfaz
-                mostrarPantallaBloqueo(mensaje)
-            }
-        }
-    }
-
-    private fun mostrarPantallaBloqueo(mensaje: String) {
-        val dialog = AlertDialog.Builder(this)
-            .setTitle("Acceso Bloqueado")
-            .setMessage(mensaje)
-            .setCancelable(false)
-            .setPositiveButton("Ver Planes") { _, _ ->
-                startActivity(Intent(this, SubscriptionActivity::class.java))
-            }
-            .setNegativeButton("Salir") { _, _ -> finish() }
-            .create()
-        dialog.show()
-        dialog.getButton(AlertDialog.BUTTON_POSITIVE)?.setTextColor(0xFF2196F3.toInt())
-        dialog.getButton(AlertDialog.BUTTON_NEGATIVE)?.setTextColor(0xFFFF5252.toInt())
-    }
-
-    private fun startBotService() {
-        val serviceIntent = Intent(this, BotForegroundService::class.java)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            startForegroundService(serviceIntent)
-        } else {
-            startService(serviceIntent)
-        }
-    }
-
-    private fun pedirExcepcionBateria() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            val pm = getSystemService(android.os.PowerManager::class.java)
-            if (!pm.isIgnoringBatteryOptimizations(packageName)) {
-                try {
-                    startActivity(Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,
-                        Uri.parse("package:\$packageName")))
-                } catch (e: Exception) {
-                    // Algunos Samsung no soportan esto directamente
-                    try {
-                        startActivity(Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS))
-                    } catch (e2: Exception) {}
-                }
+                AlertDialog.Builder(this)
+                    .setTitle("Acceso Bloqueado")
+                    .setMessage(mensaje)
+                    .setCancelable(false)
+                    .setPositiveButton("Ver Planes") { _, _ ->
+                        startActivity(Intent(this, SubscriptionActivity::class.java))
+                    }
+                    .setNegativeButton("Salir") { _, _ -> finish() }
+                    .show()
             }
         }
     }
@@ -209,7 +169,7 @@ class MainActivity : AppCompatActivity() {
             setPadding(0, 0, 0, 24)
         }
         val etPin = EditText(this).apply {
-            hint = "PIN de 4 dígitos"
+            hint = "PIN de 4 digitos"
             inputType = InputType.TYPE_CLASS_NUMBER or InputType.TYPE_NUMBER_VARIATION_PASSWORD
             maxLines = 1
             filters = arrayOf(InputFilter.LengthFilter(4))
@@ -240,7 +200,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        val filter = android.content.IntentFilter().apply {
+        val filter = IntentFilter().apply {
             addAction(FloatingPanel.ACTION_SYNC)
             addAction(FloatingPanel.ACTION_TRIP_ACCEPTED)
             addAction(FloatingPanel.ACTION_FILTERS_SAVED)
@@ -270,7 +230,7 @@ class MainActivity : AppCompatActivity() {
     private fun updateTripsDisplay() {
         val trips = prefs.getInt("trip_count", 0)
         val estimado = (trips * prefs.getFloat("min_price", 150f)).toInt()
-        tvTrips.text = "Viajes hoy: \$trips  |  Est: RD\$$estimado"
+        tvTrips.text = "Viajes hoy: $trips  |  Est: RD$$estimado"
     }
 
     private fun isAccessibilityEnabled(): Boolean {
