@@ -17,6 +17,7 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+
         auth = FirebaseAuth.getInstance()
 
         val etNombre = findViewById<EditText>(R.id.etNombre)
@@ -36,27 +37,22 @@ class RegisterActivity : AppCompatActivity() {
             val pass = etPassword.text.toString().trim()
             val vehiculo = etVehiculo.text.toString().trim()
 
-            // Validaciones
-            when {
-                nombre.isEmpty() -> { tvError.text = "Ingresa tu nombre"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
-                telefono.isEmpty() -> { tvError.text = "Ingresa tu teléfono"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
-                correo.isEmpty() -> { tvError.text = "Ingresa tu correo"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
-                pass.length < 6 -> { tvError.text = "La contraseña debe tener al menos 6 caracteres"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
-                vehiculo.isEmpty() -> { tvError.text = "Ingresa tu vehículo"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
-            }
+            if (nombre.isEmpty()) { tvError.text = "Ingresa tu nombre"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
+            if (telefono.isEmpty()) { tvError.text = "Ingresa tu telefono"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
+            if (correo.isEmpty()) { tvError.text = "Ingresa tu correo"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
+            if (pass.length < 6) { tvError.text = "Contrasena minimo 6 caracteres"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
+            if (vehiculo.isEmpty()) { tvError.text = "Ingresa tu vehiculo"; tvError.visibility = View.VISIBLE; return@setOnClickListener }
 
             progressBar.visibility = View.VISIBLE
             btnRegistrar.isEnabled = false
             tvError.visibility = View.GONE
 
-            // Crear cuenta en Firebase Auth
             auth.createUserWithEmailAndPassword(correo, pass)
                 .addOnSuccessListener { result ->
-                    val uid = result.user?.uid ?: return@addOnSuccessListener
+                    val uid = result.user?.uid ?: ""
                     val deviceId = android.provider.Settings.Secure.getString(
                         contentResolver, android.provider.Settings.Secure.ANDROID_ID)
 
-                    // Guardar perfil en Firestore
                     val perfil = hashMapOf(
                         "uid" to uid,
                         "nombre" to nombre,
@@ -73,15 +69,17 @@ class RegisterActivity : AppCompatActivity() {
                         .addOnSuccessListener {
                             progressBar.visibility = View.GONE
                             Toast.makeText(this,
-                                "Cuenta creada. Contacta al administrador para activar tu plan.",
+                                "Cuenta creada exitosamente",
                                 Toast.LENGTH_LONG).show()
-                            startActivity(Intent(this, MainActivity::class.java))
+                            val intent = Intent(this, LoginActivity::class.java)
+                            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
+                            startActivity(intent)
                             finish()
                         }
                         .addOnFailureListener { e ->
                             progressBar.visibility = View.GONE
                             btnRegistrar.isEnabled = true
-                            tvError.text = "Error guardando perfil: " + e.message
+                            tvError.text = "Error: " + e.message
                             tvError.visibility = View.VISIBLE
                         }
                 }
@@ -91,6 +89,7 @@ class RegisterActivity : AppCompatActivity() {
                     tvError.text = when {
                         e.message?.contains("email") == true -> "Correo ya registrado"
                         e.message?.contains("network") == true -> "Sin conexion a internet"
+                        e.message?.contains("CONFIGURATION_NOT_FOUND") == true -> "Error de configuracion Firebase"
                         else -> "Error: " + e.message
                     }
                     tvError.visibility = View.VISIBLE
