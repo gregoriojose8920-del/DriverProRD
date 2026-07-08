@@ -1,4 +1,4 @@
-#Mon Jul 06 07:33:07 AST 2026
+#Wed Jul 08 14:35:46 AST 2026
 base.2=/home/josecolorvision/DriverProRD_nuevo/app/build/intermediates/dex/release/mergeDexRelease/classes3.dex
 path.2=classes3.dex
 base.1=/home/josecolorvision/DriverProRD_nuevo/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
